@@ -1,0 +1,187 @@
+
+
+\# Corporate Finance — Course \& Portfolio Hub
+
+
+
+Unified repository for \*\*coursework, financial models, documentation, and professional portfolio artifacts\*\* developed by \*\*Nguyen Bui Ngoc Linh\*\* as part of the \*\*Vietnam Executive MBA (VEMBA)\*\* program at the \*\*University of Hawaiʻi at Mānoa – Shidler College of Business\*\*.
+
+
+
+Everything lives in a single Git-tracked repository so instructors, reviewers, and collaborators can easily locate specifications, financial models, decision memos, and final deliverables without context switching.
+
+# 
+
+# \---
+
+# 
+
+# \## Repository Structure
+
+Corporate-Finance/
+
+├── BIO.md                     # Author biography (single source of truth)
+
+├── RESUME.md                  # One-page executive \& academic resume
+
+├── README.md                  # Repository overview (this file)
+
+│
+
+├── docs/                      # Written deliverables \& reference materials
+
+│   ├── README.md
+
+│   ├── decisions/             # Decision memos \& executive rationale
+
+│   ├── specs/                 # Analytical / technical specifications
+
+│   ├── plans/                 # Project plans \& timelines
+
+│   └── templates/             # Reusable document templates
+
+│
+
+├── models/                    # Financial models (Excel-based)
+
+│   ├── README.md
+
+│   ├── templates/             # Blank model frameworks (Stage 1)
+
+│   └── builds/                # Completed models \& analyses (Stage 3)
+
+│
+
+├── data/                      # Source data \& provenance notes
+
+│   └── README.md
+
+│
+
+├── analysis/                  # Validation \& review work
+
+│   ├── README.md
+
+│   └── validation/            # Model checks \& sensitivity analysis
+
+│
+
+└── deliverables/              # Final, presentation-ready outputs (Stage 5)
+
+└── README.md
+
+
+
+\## Academic Scope
+
+
+
+This repository supports graduate-level work in:
+
+
+
+\- Corporate Finance \& Valuation  
+
+\- Capital Budgeting and Investment Decision-Making  
+
+\- Cost of Capital and Risk Analysis  
+
+\- Financial Statement Analysis  
+
+\- Strategy and Financial Governance  
+
+
+
+All materials are developed within the academic framework of the \*\*VEMBA program\*\* and emphasize clarity, rigor, and applicability to real-world business contexts.
+
+
+
+\---
+
+
+
+\## Project Workflow
+
+
+
+Most projects in this repository follow a staged finance workflow:
+
+
+
+1\. \*\*Memo\*\* — Executive framing of the problem or decision  
+
+2\. \*\*Specification\*\* — Assumptions, methodology, and analytical plan  
+
+3\. \*\*Model Build\*\* — Excel-based financial model  
+
+4\. \*\*Validation\*\* — Reasonableness checks and sensitivity analysis  
+
+5\. \*\*Final Deliverable\*\* — Clear recommendations and presentation-ready output  
+
+
+
+Each stage is documented and version-controlled to preserve analytical intent and decision traceability.
+
+
+
+\---
+
+
+
+\## Author
+
+
+
+\*\*Nguyen Bui Ngoc Linh\*\* is a Senior Manager \*\*Prudential Vietnam Assurance\*\*, currently working within the \*\*Life Insurance\*\* on strategy and large-scale transformation initiatives.
+
+
+She is a \*\*Vietnam Executive MBA (VEMBA)\*\* candidate at the Shidler College of Business with academic interests in corporate finance, accounting, valuation, and strategic decision-making.
+
+
+
+📧 Contact: nguyenbuingoclinh546@gmail.com
+
+
+
+For background and professional experience, see:
+
+\- `BIO.md`
+
+\- `RESUME.md`
+
+
+
+\---
+
+
+
+\## Usage Notes
+
+
+
+This repository is intended for:
+
+
+
+\- \*\*Academic review\*\* by faculty and program evaluators  
+
+\- \*\*Professional reference\*\* as a structured finance portfolio  
+
+\- \*\*Personal development\*\*, maintaining a long-term, version-controlled record of applied finance work  
+
+
+
+All content is for educational and professional development purposes.
+
+
+
+\---
+
+
+
+© Nguyen Bui Ngoc Linh
+
+Vietnam Executive MBA (VEMBA) — Shidler College of Business  
+
+University of Hawaiʻi
+

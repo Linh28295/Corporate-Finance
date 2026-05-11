@@ -1,10 +1,10 @@
 # Stage 3 Data Entry Guide
-## The Coca-Cola Company (KO) — FY2024 + FY2023
+## The Coca-Cola Company (KO) — FY2025 + FY2024
 
 **Template file:** `models/templates/performance-ratios-template.xlsx`  
 **Save populated build as:** `models/builds/2026-05-10-coca-cola-financials.xlsx`  
-**Source:** KO 10-K FY2024 (filed February 2025) via SEC EDGAR — [edgar.sec.gov](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO&type=10-K)  
-**Units:** USD millions (all figures in millions unless stated)  
+**Source:** KO 10-K FY2025 via SEC EDGAR — [edgar.sec.gov](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO&type=10-K)  
+**Units:** USD millions  
 **Reporting standard:** U.S. GAAP  
 **Fiscal year end:** December 31  
 
@@ -21,96 +21,98 @@
 | Units | Millions |
 | Reporting Standard | U.S. GAAP |
 | Fiscal Year End | December 31 |
-| Current Year | FY2024 (Jan 1 – Dec 31, 2024) |
-| Prior Year | FY2023 (Jan 1 – Dec 31, 2023) |
+| Current Year | FY2025 (Jan 1 – Dec 31, 2025) |
+| Prior Year | FY2024 (Jan 1 – Dec 31, 2024) |
 | Source 10-K URL | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO&type=10-K |
 | Analyst | Nguyen Bui Ngoc Linh |
 | Date Populated | 2026-05-10 |
-| IFRS / GAAP Notes | U.S. GAAP. Revenue reported net of excise taxes. Equity method investments material (∼$17B) — included in non-current assets. Retained earnings (reinvested earnings) are negative due to cumulative buybacks exceeding cumulative net income. |
+| GAAP Notes | U.S. GAAP. Retained earnings are POSITIVE ($80,382M FY2025). Treasury stock (-$56,423M) and AOCI (-$14,105M) are large negatives that reduce total equity. Equity method investments ($20,235M) are material non-current assets. |
 
 ---
 
 ## Step 1 — Income Statement Tab (`INC_*` named ranges)
 
-Source: **Consolidated Statements of Income** in the 10-K
+Source: **Consolidated Statements of Income** in the 10-K  
+Use the **full data reference** at `analysis/validation/2026-05-10-coca-cola-financials-data-reference.md` for exact figures.
 
-| Named Range (approximate) | 10-K Line Item | FY2024 col | FY2023 col |
-|--------------------------|----------------|-----------|----------|
-| `INC_Revenue` | Net operating revenues | From 10-K | From 10-K |
-| `INC_COGS` | Cost of goods sold | From 10-K | From 10-K |
-| `INC_GrossProfit` | Gross profit | From 10-K | From 10-K |
-| `INC_SGA` | Selling, general and administrative expenses | From 10-K | From 10-K |
-| `INC_OtherOperating` | Other operating charges | From 10-K | From 10-K |
-| `INC_OperatingIncome` | Operating income | From 10-K | From 10-K |
-| `INC_InterestExpense` | Interest expense | From 10-K | From 10-K |
-| `INC_InterestIncome` | Interest income | From 10-K | From 10-K |
-| `INC_EquityIncome` | Equity income (net) | From 10-K | From 10-K |
-| `INC_EBT` | Income before income taxes | From 10-K | From 10-K |
-| `INC_TaxExpense` | Income taxes | From 10-K | From 10-K |
-| `INC_NetIncome` | Net income attributable to shareowners of KO | From 10-K | From 10-K |
-| `INC_SharesDiluted` | Weighted avg diluted shares outstanding | From 10-K | From 10-K |
-| `INC_EPSDiluted` | Diluted net income per share | From 10-K | From 10-K |
+| Named Range (approximate) | 10-K Line Item | FY2025 | FY2024 |
+|--------------------------|----------------|-------:|-------:|
+| `INC_Revenue` | Net operating revenues | 47,941 | 47,061 |
+| `INC_COGS` | Cost of goods sold | 18,397 | 18,324 |
+| `INC_GrossProfit` | Gross profit | 29,544 | 28,737 |
+| `INC_SGA` | Selling, general & administrative expenses | 14,521 | 14,582 |
+| `INC_OtherOperating` | Other operating expenses (incl. unusual items) | 629 | 2,455 |
+| `INC_OperatingIncome` | Operating income | 14,394 | 11,700 |
+| `INC_InterestNet` | Interest income/(expense), net | 1,683 | 1,417 |
+| `INC_OtherNet` | Other, net | (79) | (31) |
+| `INC_EBT` | Net income before taxes | 15,998 | 13,086 |
+| `INC_TaxExpense` | Provision for income taxes | 2,861 | 2,437 |
+| `INC_NetIncome` | Net income | 13,107 | 10,631 |
+| `INC_SharesDiluted` | Diluted weighted average shares (millions) | 4,313 | 4,320 |
+| `INC_EPSDiluted` | Diluted EPS | 3.04 | 2.46 |
 
-**Tips for KO specifically:**
-- Use *Net income attributable to shareowners of The Coca-Cola Company* (not total consolidated net income which includes noncontrolling interests)
-- Interest expense is a **positive** number in the template even though it reduces income
-- Equity income from bottling investments is material — do not omit it
+**KO-specific notes:**
+- Retained earnings are **POSITIVE** — do not enter as negative
+- Interest figure is net (income minus expense); source gross split from 10-K footnotes if template requires separate rows
+- Equity method income from bottling investments is material — do not omit
 
 ---
 
 ## Step 2 — Balance Sheet Tab (`BAL_*` and `startYear_*` named ranges)
 
 Source: **Consolidated Balance Sheets** in the 10-K  
-⚠️ Fill **both** current year (Dec 31, 2024) AND prior year (Dec 31, 2023) columns. Prior year = `startYear_*` ranges.
+⚠️ Fill **both** current year (Dec 31, 2025) AND prior year (Dec 31, 2024). Prior year = `startYear_*` ranges.
 
 ### Current Assets
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `BAL_Cash` | Cash and cash equivalents |
-| `BAL_ShortTermInvestments` | Short-term investments / Marketable securities |
-| `BAL_AccountsReceivable` | Trade accounts receivable, net |
-| `BAL_Inventories` | Inventories |
-| `BAL_PrepaidOther` | Prepaid expenses and other current assets |
-| `BAL_TotalCurrentAssets` | Total current assets |
+| Named Range | 10-K Line Item | FY2025 | FY2024 |
+|------------|----------------|-------:|-------:|
+| `BAL_Cash` | Cash and cash equivalents | 10,270 | 10,828 |
+| `BAL_ShortTermInvestments` | Short-term investments | 5,536 | 3,743 |
+| `BAL_AccountsReceivable` | Total receivables, net | 3,038 | 3,569 |
+| `BAL_Inventories` | Inventories | 4,425 | 4,728 |
+| `BAL_PrepaidOther` | Prepaid expenses & other current assets | 7,775 | 3,129 |
+| `BAL_TotalCurrentAssets` | Total current assets | 31,044 | 25,997 |
 
 ### Non-Current Assets
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `BAL_EquityInvestments` | Equity method investments (this is large for KO — ~$17B) |
-| `BAL_PPE_Net` | Property, plant and equipment — net |
-| `BAL_Goodwill` | Goodwill |
-| `BAL_OtherIntangibles` | Other intangible assets |
-| `BAL_OtherNonCurrent` | Other non-current assets |
-| `BAL_TotalAssets` | Total assets |
+| Named Range | 10-K Line Item | FY2025 | FY2024 |
+|------------|----------------|-------:|-------:|
+| `BAL_PPE_Net` | PP&E — net | 11,310 | 11,485 |
+| `BAL_Goodwill` | Goodwill | 15,491 | 18,139 |
+| `BAL_OtherIntangibles` | Other intangible assets, net | 12,531 | 13,301 |
+| `BAL_EquityInvestments` | Long-term / equity method investments | 20,235 | 18,087 |
+| `BAL_OtherNonCurrent` | Other long-term assets | 14,205 | 13,540 |
+| `BAL_TotalAssets` | **Total assets** | **104,816** | **100,549** |
 
 ### Current Liabilities
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `BAL_AccountsPayable` | Accounts payable and accrued expenses |
-| `BAL_CurrentDebt` | Current maturities of long-term debt |
-| `BAL_OtherCurrentLiabilities` | Other current liabilities |
-| `BAL_TotalCurrentLiabilities` | Total current liabilities |
+| Named Range | 10-K Line Item | FY2025 | FY2024 |
+|------------|----------------|-------:|-------:|
+| `BAL_AccountsPayable` | Accounts payable | 5,649 | 5,468 |
+| `BAL_AccruedExpenses` | Accrued expenses | 9,164 | 16,244 |
+| `BAL_CurrentDebt` | Current portion of LT debt + notes payable | 3,373 | 2,147 |
+| `BAL_OtherCurrentLiabilities` | Other current liabilities | 3,095 | 1,390 |
+| `BAL_TotalCurrentLiabilities` | Total current liabilities | 21,281 | 25,249 |
 
 ### Non-Current Liabilities
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `BAL_LongTermDebt` | Long-term debt |
-| `BAL_DeferredTax` | Deferred income tax liabilities |
-| `BAL_OtherNonCurrentLiabilities` | Other non-current liabilities |
-| `BAL_TotalLiabilities` | Total liabilities |
+| Named Range | 10-K Line Item | FY2025 | FY2024 |
+|------------|----------------|-------:|-------:|
+| `BAL_LongTermDebt` | Long-term debt | 42,119 | 42,375 |
+| `BAL_DeferredTax` | Deferred income tax liabilities | 2,406 | 2,469 |
+| `BAL_OtherNonCurrentLiabilities` | Other long-term liabilities | 4,735 | 4,084 |
+| `BAL_MinorityInterest` | Noncontrolling interest | 2,106 | 1,516 |
+| `BAL_TotalLiabilities` | **Total liabilities** | **72,647** | **75,693** |
 
 ### Equity
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `BAL_CommonStock` | Common stock |
-| `BAL_APIC` | Capital surplus |
-| `BAL_RetainedEarnings` | Reinvested earnings — **this will be NEGATIVE** for KO |
-| `BAL_AOCI` | Accumulated other comprehensive income (loss) |
-| `BAL_TreasuryStock` | Treasury stock — enter as **NEGATIVE** |
-| `BAL_TotalEquity` | Equity attributable to shareowners of KO |
-| `BAL_TotalLiabilitiesAndEquity` | Total liabilities and equity |
+| Named Range | 10-K Line Item | FY2025 | FY2024 |
+|------------|----------------|-------:|-------:|
+| `BAL_CommonStock` | Common stock | 1,760 | 1,760 |
+| `BAL_APIC` | Additional paid-in capital | 20,581 | 19,801 |
+| `BAL_RetainedEarnings` | Retained earnings — **POSITIVE** | 80,382 | 76,054 |
+| `BAL_TreasuryStock` | Treasury stock — **NEGATIVE** | (56,423) | (55,916) |
+| `BAL_AOCI` | Accumulated other comprehensive loss — **NEGATIVE** | (14,105) | (16,779) |
+| `BAL_TotalEquity` | **Total equity** | **32,169** | **24,856** |
+| `BAL_TotalLiabilitiesAndEquity` | **Total liabilities & equity** | **104,816** | **100,549** |
 
-**Key check:** `BAL_TotalAssets` = `BAL_TotalLiabilitiesAndEquity` for both years.
+**Balance check:** FY2025: 104,816 = 72,647 + 32,169 ✅ | FY2024: 100,549 = 75,693 + 24,856 ✅
 
 ---
 
@@ -118,54 +120,42 @@ Source: **Consolidated Balance Sheets** in the 10-K
 
 Source: **Consolidated Statements of Cash Flows** in the 10-K
 
-### Operating Activities
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `CASH_NetIncome` | Net income (consolidated, before noncontrolling interests) |
-| `CASH_DA` | Depreciation and amortization |
-| `CASH_StockComp` | Stock-based compensation expense |
-| `CASH_WorkingCapital` | Net change in operating assets and liabilities |
-| `CASH_OtherOperating` | Other operating activities (net) |
-| `CASH_CFO` | Net cash provided by operating activities |
-
-### Investing Activities
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `CASH_Capex` | Purchases of property, plant and equipment — enter as **NEGATIVE** |
-| `CASH_Acquisitions` | Acquisitions of businesses (net of cash) |
-| `CASH_InvestmentPurchases` | Purchases of investments |
-| `CASH_InvestmentProceeds` | Proceeds from disposals of investments |
-| `CASH_CFI` | Net cash used in investing activities |
-
-### Financing Activities
-| Named Range | 10-K Line Item |
-|------------|----------------|
-| `CASH_DebtIssuance` | Issuances of debt |
-| `CASH_DebtRepayment` | Payments of debt — enter as **NEGATIVE** |
-| `CASH_DividendsPaid` | Dividends paid — enter as **NEGATIVE** |
-| `CASH_Buybacks` | Purchases of treasury stock — enter as **NEGATIVE** |
-| `CASH_CFF` | Net cash used in financing activities |
-| `CASH_NetCashChange` | Net increase (decrease) in cash during period |
+| Named Range | 10-K Line Item | FY2025 | FY2024 |
+|------------|----------------|-------:|-------:|
+| `CASH_NetIncome` | Net income (consolidated) | 13,137 | 10,649 |
+| `CASH_WorkingCapital` | Changes in working capital | (7,208) | (6,234) |
+| `CASH_CFO` | **Net cash from operating activities** | **7,408** | **6,805** |
+| `CASH_Capex` | Capital expenditures — **NEGATIVE** | (2,112) | (2,064) |
+| `CASH_Acquisitions` | Acquisition of business | (461) | (315) |
+| `CASH_InvestmentNet` | Investment / divestiture activity, net | 5,008 | 11,212 |
+| `CASH_CFI` | **Net cash from investing activities** | **(67)** | **2,524** |
+| `CASH_DebtNet` | Issuance/(retirement) of debt, net | 13 | 2,528 |
+| `CASH_Buybacks` | Stock repurchases — **NEGATIVE** | (433) | (1,048) |
+| `CASH_DividendsPaid` | Dividends paid — **NEGATIVE** | (8,779) | (8,359) |
+| `CASH_CFF` | **Net cash from financing activities** | **(8,140)** | **(6,910)** |
+| `CASH_FXEffect` | Foreign exchange effect on cash | 321 | (623) |
+| `CASH_NetCashChange` | **Net change in cash** | **(478)** | **1,796** |
 
 ---
 
 ## Step 4 — Market & Assumptions
 
-| Input | Where to find it | Notes |
-|-------|-----------------|-------|
-| Share price (FY2024 year-end) | KO closing price Dec 31, 2024 (Yahoo Finance) | For P/E and market cap ratios |
-| Share price (FY2023 year-end) | KO closing price Dec 31, 2023 | Prior year market ratios |
-| Diluted shares outstanding | 10-K — EPS footnote or IS | Use weighted average diluted |
-| Income tax rate | 10-K — Income Tax footnote | KO effective rate ~18–19% |
-| Cost of equity / WACC | Use CAPM or instructor-provided rate | Beta for KO ∼ 0.55–0.60 (defensive stock) |
+| Input | FY2025 | FY2024 | Source |
+|-------|-------:|-------:|--------|
+| Share price (Dec 31) | ~$71.00 | ~$62.00 | Yahoo Finance |
+| Diluted shares (millions) | 4,313 | 4,320 | 10-K EPS note |
+| Effective tax rate | 17.88% | 18.62% | 10-K tax footnote |
 
 ---
 
 ## Self-Check Before Uploading
 
-- [ ] Balance Sheet balances both years: Total Assets = Total Liabilities + Equity
+- [ ] Balance sheet balances both years: $104,816M (FY2025) and $100,549M (FY2024)
 - [ ] No `#REF!`, `#DIV/0!`, or `#NAME?` errors on Ratios tab
-- [ ] Prior year (`startYear_*`) cells populated — otherwise start-of-year ROA/ROE will fail
-- [ ] Treasury stock and reinvested earnings entered as negatives
-- [ ] All figures in consistent units (millions throughout)
-- [ ] Cover tab completed with source URL, standard, currency, FYE
+- [ ] Prior year (`startYear_*`) fully populated with FY2024 figures
+- [ ] Treasury stock and AOCI entered as **negatives**
+- [ ] Capex and dividends entered as **negatives**
+- [ ] Retained earnings entered as **positive**
+- [ ] Cover tab: U.S. GAAP, USD millions, FYE Dec 31, FY2025 current / FY2024 prior
+- [ ] File saved as: `models/builds/2026-05-10-coca-cola-financials.xlsx`
+- [ ] Commit message: `Populate Coca-Cola FY2025 + FY2024 financials from Mergent source`

@@ -1,5 +1,5 @@
 # Stage 3 — Coca-Cola Financial Data Reference
-## The Coca-Cola Company (KO) | FY2024 & FY2023
+## The Coca-Cola Company (KO) | FY2025 & FY2024
 
 **Source:** Mergent Online 5-Year Summary | As Originally Reported  
 **Units:** USD Millions throughout  
@@ -22,12 +22,12 @@
 | Units | Millions |
 | Reporting Standard | U.S. GAAP |
 | Fiscal Year End | December 31 |
-| Current Year | FY2024 (ended Dec 31, 2024) |
-| Prior Year | FY2023 (ended Dec 31, 2023) |
+| Current Year | FY2025 (ended Dec 31, 2025) |
+| Prior Year | FY2024 (ended Dec 31, 2024) |
 | Source | Mergent Online / KO 10-K via SEC EDGAR |
 | Analyst | Nguyen Bui Ngoc Linh |
 | Date Populated | 2026-05-10 |
-| Notes | Retained earnings (Reinvested earnings) are POSITIVE. Large treasury stock (-$55,916M) and AOCI (-$16,779M) reduce total equity. Equity method investments ($18,087M) are material non-current assets. |
+| Notes | Treasury Stock (-$56,423M) and AOCI (-$14,105M) are large negatives that reduce equity. Equity method investments ($20,235M) are material non-current assets. Retained earnings are POSITIVE. |
 
 ---
 
@@ -35,100 +35,96 @@
 
 Source: Consolidated Statements of Income
 
-| Line Item | FY2024 | FY2023 |
+| Line Item | FY2025 | FY2024 |
 |-----------|-------:|-------:|
-| **Net Operating Revenues (Total Revenue)** | **47,061** | **45,754** |
-| Cost of Goods Sold (Cost of Revenue) | 18,324 | 18,520 |
-| **Gross Profit** | **28,737** | **27,234** |
-| Selling, General & Administrative Expenses | 14,582 | 13,972 |
-| Unusual Expense / (Income) | (654) | (228) |
-| Other Operating Expenses | 3,109 | 1,702 |
-| **Total Operating Expenses** | **35,361** | **33,981** |
-| **Operating Income (EBIT)** | **11,700** | **11,773** |
-| Interest Income / (Expense), Net | 1,417 | 1,256 |
-| Other, Net | (31) | (77) |
-| **Net Income Before Taxes (EBT)** | **13,086** | **12,952** |
-| Provision for Income Taxes | 2,437 | 2,249 |
-| **Net Income** | **10,631** | **10,714** |
+| **Net Operating Revenues (Total Revenue)** | **47,941** | **47,061** |
+| Cost of Goods Sold (Cost of Revenue) | 18,397 | 18,324 |
+| **Gross Profit** | **29,544** | **28,737** |
+| Selling, General & Administrative Expenses | 14,521 | 14,582 |
+| Unusual Expense / (Income) | 582 | (654) |
+| Other Operating Expenses | 47 | 3,109 |
+| **Total Operating Expenses** | **33,547** | **35,361** |
+| **Operating Income (EBIT)** | **14,394** | **11,700** |
+| Interest Income / (Expense), Net | 1,683 | 1,417 |
+| Other, Net | (79) | (31) |
+| **Net Income Before Taxes (EBT)** | **15,998** | **13,086** |
+| Provision for Income Taxes | 2,861 | 2,437 |
+| **Net Income** | **13,107** | **10,631** |
 | | | |
-| Basic EPS | 2.47 | 2.48 |
-| Diluted EPS | 2.46 | 2.47 |
-| Basic Weighted Average Shares (millions) | 4,309 | 4,323 |
-| Diluted Weighted Average Shares (millions) | 4,320 | 4,339 |
-| Dividends Per Share | 1.965 | 1.865 |
-| Effective Tax Rate | 18.62% | 17.36% |
-
-**Notes:**
-- Interest figure shown is **net** (income minus expense). If the template has separate rows, source the gross split from the 10-K footnotes
-- Unusual Expense is **negative** (income) in FY2024 due to asset gains — enter as shown
+| Basic EPS | 3.05 | 2.47 |
+| Diluted EPS | 3.04 | 2.46 |
+| Basic Weighted Average Shares (millions) | 4,303 | 4,309 |
+| Diluted Weighted Average Shares (millions) | 4,313 | 4,320 |
+| Dividends Per Share | 2.06 | 1.965 |
+| Effective Tax Rate | 17.88% | 18.62% |
 
 ---
 
 ## BALANCE SHEET TAB
 
 Source: Consolidated Balance Sheets  
-⚠️ Enter **both columns**: FY2024 = current year | FY2023 = prior year (`startYear_*`)
+⚠️ Enter **both columns**: FY2025 = current year | FY2024 = prior year (`startYear_*`)
 
 ### ASSETS
 
-| Line Item | FY2024 (Dec 31) | FY2023 (Dec 31) |
+| Line Item | FY2025 (Dec 31) | FY2024 (Dec 31) |
 |-----------|----------------:|----------------:|
 | **CURRENT ASSETS** | | |
-| Cash & Cash Equivalents | 10,828 | 9,366 |
-| Short-term Investments (incl. in Cash line above) | 3,743 | 4,297 |
-| *Cash, Cash Equiv. & Short-term Investments (total)* | *14,571* | *13,663* |
-| Total Receivables, Net | 3,569 | 3,410 |
-| Inventories | 4,728 | 4,424 |
-| Prepaid Expenses & Other Current Assets | 2,998 | 3,141 |
-| Other Current Assets | 131 | 2,094 |
-| **Total Current Assets** | **25,997** | **26,732** |
+| Cash & Cash Equivalents | 10,270 | 10,828 |
+| Short-term Investments | 5,536 | 3,743 |
+| *Cash, Cash Equiv. & Short-term Investments (total)* | *15,806* | *14,571* |
+| Total Receivables, Net | 3,038 | 3,569 |
+| Inventories | 4,425 | 4,728 |
+| Prepaid Expenses & Other Current Assets | 2,433 | 2,998 |
+| Other Current Assets | 5,342 | 131 |
+| **Total Current Assets** | **31,044** | **25,997** |
 | | | |
 | **NON-CURRENT ASSETS** | | |
-| Property, Plant & Equipment — Gross | 21,055 | 19,797 |
-| Accumulated Depreciation | (9,570) | (9,233) |
-| **PP&E — Net** | **11,485** | **10,564** |
-| Goodwill | 18,139 | 18,358 |
-| Other Intangible Assets, Net | 13,301 | 14,865 |
-| Long-term / Equity Method Investments | 18,087 | 19,789 |
-| Other Long-term Assets | 13,540 | 7,395 |
-| **Total Assets** | **100,549** | **97,703** |
+| Property, Plant & Equipment — Gross | 20,429 | 21,055 |
+| Accumulated Depreciation | (9,119) | (9,570) |
+| **PP&E — Net** | **11,310** | **11,485** |
+| Goodwill | 15,491 | 18,139 |
+| Other Intangible Assets, Net | 12,531 | 13,301 |
+| Long-term / Equity Method Investments | 20,235 | 18,087 |
+| Other Long-term Assets | 14,205 | 13,540 |
+| **Total Assets** | **104,816** | **100,549** |
 
 ### LIABILITIES
 
-| Line Item | FY2024 (Dec 31) | FY2023 (Dec 31) |
+| Line Item | FY2025 (Dec 31) | FY2024 (Dec 31) |
 |-----------|----------------:|----------------:|
 | **CURRENT LIABILITIES** | | |
-| Accounts Payable | 5,468 | 5,590 |
-| Accrued Expenses | 16,244 | 9,176 |
-| Current Portion of Long-term Debt | 648 | 1,960 |
-| Notes Payable / Short-term Debt | 1,499 | 4,557 |
-| Other Current Liabilities | 1,390 | 2,288 |
-| **Total Current Liabilities** | **25,249** | **23,571** |
+| Accounts Payable | 5,649 | 5,468 |
+| Accrued Expenses | 9,164 | 16,244 |
+| Current Portion of Long-term Debt | 1,822 | 648 |
+| Notes Payable / Short-term Debt | 1,551 | 1,499 |
+| Other Current Liabilities | 3,095 | 1,390 |
+| **Total Current Liabilities** | **21,281** | **25,249** |
 | | | |
 | **NON-CURRENT LIABILITIES** | | |
-| Long-term Debt | 42,375 | 35,547 |
-| Deferred Income Tax Liabilities | 2,469 | 2,639 |
-| Other Long-term Liabilities | 4,084 | 8,466 |
-| Minority / Noncontrolling Interest | 1,516 | 1,539 |
-| **Total Liabilities** | **75,693** | **71,762** |
+| Long-term Debt | 42,119 | 42,375 |
+| Deferred Income Tax Liabilities | 2,406 | 2,469 |
+| Other Long-term Liabilities | 4,735 | 4,084 |
+| Minority / Noncontrolling Interest | 2,106 | 1,516 |
+| **Total Liabilities** | **72,647** | **75,693** |
 
 ### EQUITY
 
-| Line Item | FY2024 (Dec 31) | FY2023 (Dec 31) |
+| Line Item | FY2025 (Dec 31) | FY2024 (Dec 31) |
 |-----------|----------------:|----------------:|
 | Common Stock | 1,760 | 1,760 |
-| Additional Paid-in Capital (APIC) | 19,801 | 19,209 |
-| Retained Earnings (Reinvested Earnings) — **POSITIVE** | 76,054 | 73,782 |
-| Treasury Stock — enter as **NEGATIVE** | (55,916) | (54,535) |
-| Accumulated Other Comprehensive Income (Loss) | (16,779) | (14,274) |
-| **Total Equity (attributable to KO shareholders)** | **24,856** | **25,941** |
+| Additional Paid-in Capital (APIC) | 20,581 | 19,801 |
+| Retained Earnings — **POSITIVE** | 80,382 | 76,054 |
+| Treasury Stock — enter as **NEGATIVE** | (56,423) | (55,916) |
+| Accumulated Other Comprehensive Income (Loss) | (14,105) | (16,779) |
+| **Total Equity** | **32,169** | **24,856** |
 | | | |
-| **Total Liabilities & Shareholders’ Equity** | **100,549** | **97,703** |
-| Total Common Shares Outstanding (millions) | 4,302 | 4,308 |
+| **Total Liabilities & Shareholders’ Equity** | **104,816** | **100,549** |
+| Total Common Shares Outstanding (millions) | 4,302 | 4,302 |
 
 **Balance check:**
+- FY2025: $104,816 = $72,647 + $32,169 ✅
 - FY2024: $100,549 = $75,693 + $24,856 ✅
-- FY2023: $97,703 = $71,762 + $25,941 ✅
 
 ---
 
@@ -136,84 +132,79 @@ Source: Consolidated Balance Sheets
 
 Source: Consolidated Statements of Cash Flows
 
-| Line Item | FY2024 | FY2023 |
+| Line Item | FY2025 | FY2024 |
 |-----------|-------:|-------:|
 | **OPERATING ACTIVITIES** | | |
-| Net Income (consolidated) | 10,649 | 10,703 |
-| Changes in Working Capital | (6,234) | (846) |
-| **Net Cash from Operating Activities (CFO)** | **6,805** | **11,599** |
+| Net Income (consolidated) | 13,137 | 10,649 |
+| Changes in Working Capital | (7,208) | (6,234) |
+| **Net Cash from Operating Activities (CFO)** | **7,408** | **6,805** |
 | | | |
 | **INVESTING ACTIVITIES** | | |
-| Capital Expenditures — enter as **NEGATIVE** | (2,064) | (1,852) |
-| Investment Purchases / (Sales), Net | 235 | 366 |
-| Sale of Fixed Assets | 40 | 74 |
-| Acquisition of Business | (315) | (62) |
-| Sale / Maturity of Investments | 6,589 | 4,354 |
-| Other Investing Cash Flow | 4,588 | (1,497) |
-| **Net Cash from Investing Activities (CFI)** | **2,524** | **(3,349)** |
+| Capital Expenditures — enter as **NEGATIVE** | (2,112) | (2,064) |
+| Investment Purchases / (Sales), Net | 330 | 235 |
+| Sale of Fixed Assets | 13 | 40 |
+| Acquisition of Business | (461) | (315) |
+| Sale / Maturity of Investments | 4,665 | 6,589 |
+| Other Investing Cash Flow | 2,045 | 4,588 |
+| **Net Cash from Investing Activities (CFI)** | **(67)** | **2,524** |
 | | | |
 | **FINANCING ACTIVITIES** | | |
-| Issuance / (Retirement) of Debt, Net | 2,528 | 1,857 |
-| Issuance / (Retirement) of Stock, Net | (1,048) | (1,750) |
-| Total Cash Dividends Paid — enter as **NEGATIVE** | (8,359) | (7,952) |
-| **Net Cash from Financing Activities (CFF)** | **(6,910)** | **(8,310)** |
+| Issuance / (Retirement) of Debt, Net | 13 | 2,528 |
+| Issuance / (Retirement) of Stock, Net | (433) | (1,048) |
+| Total Cash Dividends Paid — enter as **NEGATIVE** | (8,779) | (8,359) |
+| **Net Cash from Financing Activities (CFF)** | **(8,140)** | **(6,910)** |
 | | | |
-| Foreign Exchange Effects on Cash | (623) | (73) |
-| **Net Change in Cash** | **1,796** | **(133)** |
-| Beginning Cash Balance | 9,692 | 9,825 |
-| Ending Cash Balance | 11,488 | 9,692 |
+| Foreign Exchange Effects on Cash | 321 | (623) |
+| **Net Change in Cash** | **(478)** | **1,796** |
+| Beginning Cash Balance | 11,488 | 9,692 |
+| Ending Cash Balance | 11,010 | 11,488 |
 
 ---
 
 ## MARKET & ASSUMPTIONS INPUTS
 
-| Input | FY2024 | FY2023 | Source |
+| Input | FY2025 | FY2024 | Source |
 |-------|-------:|-------:|--------|
-| KO Share Price (Dec 31) | ~$62.00 | ~$58.90 | Yahoo Finance / Bloomberg |
-| Diluted Shares Outstanding (millions) | 4,320 | 4,339 | 10-K EPS note |
-| Market Capitalization (USD millions) | ~267,600 | ~255,750 | Price × Shares |
-| Effective Tax Rate | 18.62% | 17.36% | Income Tax footnote, 10-K |
-| EBITDA | 12,121 | 12,673 | Mergent Ratio section |
-| Free Cash Flow | 4,741 | 9,747 | Mergent Ratio section |
+| KO Share Price (Dec 31) | ~$71.00 | ~$62.00 | Yahoo Finance |
+| Diluted Shares Outstanding (millions) | 4,313 | 4,320 | 10-K EPS note |
+| Effective Tax Rate | 17.88% | 18.62% | Income Tax footnote, 10-K |
+| EBITDA (USD M) | 16,026 | 12,121 | Mergent Ratio section |
+| Free Cash Flow (USD M) | 5,296 | 4,741 | Mergent Ratio section |
 
-> ⚠️ Verify the share price with Yahoo Finance for the exact Dec 31 closing price
+> ⚠️ Verify share prices with Yahoo Finance for exact Dec 31 closing prices
 
 ---
 
 ## PRE-UPLOAD SELF-CHECK
 
-- [ ] **Balance Sheet balances both years:** $100,549M (FY2024) and $97,703M (FY2023)
+- [ ] **Balance Sheet balances both years:** $104,816M (FY2025) and $100,549M (FY2024)
 - [ ] **No formula errors** on Ratios tab (`#REF!`, `#DIV/0!`, `#NAME?`)
-- [ ] **Prior year column** (`startYear_*`) fully populated with FY2023 figures
+- [ ] **Prior year column** (`startYear_*`) fully populated with FY2024 figures
 - [ ] **Treasury stock** entered as negative in both years
 - [ ] **AOCI** entered as negative in both years
 - [ ] **Capex** entered as negative
 - [ ] **Dividends paid** entered as negative
-- [ ] **Cover tab** completed with source, standard (U.S. GAAP), currency (USD), FYE (Dec 31)
+- [ ] **Cover tab** completed: U.S. GAAP, USD millions, FYE Dec 31, FY2025 current / FY2024 prior
 - [ ] File saved as: `models/builds/2026-05-10-coca-cola-financials.xlsx`
-- [ ] Commit message: `Populate Coca-Cola FY2024 + FY2023 financials from Mergent 10-K source`
+- [ ] Commit message: `Populate Coca-Cola FY2025 + FY2024 financials from Mergent source`
 
 ---
 
-## SELECTED RATIO BENCHMARKS (from Mergent — for Ratios tab verification)
+## RATIO BENCHMARKS (Mergent — verify against your Ratios tab)
 
-Use these to spot-check your auto-computed Ratios tab:
-
-| Ratio | FY2024 | FY2023 |
+| Ratio | FY2025 | FY2024 |
 |-------|-------:|-------:|
-| Gross Margin | 61.1% | 59.5% |
-| Operating Margin | 24.9% | 25.7% |
-| Net Profit Margin | 22.6% | 23.4% |
-| EBITDA Margin | 27.2% | 28.2% |
-| Current Ratio | 1.03 | 1.13 |
-| Quick Ratio | 0.84 | 0.95 |
-| Total Debt / Total Equity | 176.5% | 154.6% |
-| Long-term Debt / Capital | 61.6% | 56.4% |
-| Interest Coverage | 7.5x | 7.0x |
-| Asset Turnover | 0.468 | 0.468 |
-| Days Inventory (DOH) | 94 | 87 |
-| Days Receivable (DSO) | 28 | 27 |
-| Days Payable (DPO) | 109 | 110 |
-| Free Cash Flow (USD M) | 4,741 | 9,747 |
-| Return on Equity (normalized) | 38.8% | 40.6% |
-| Return on Assets (normalized) | 9.9% | 10.8% |
+| Gross Margin | 61.6% | 61.1% |
+| Operating Margin | 30.0% | 24.9% |
+| Net Profit Margin | 27.3% | 22.6% |
+| EBITDA Margin | 32.2% | 27.2% |
+| Current Ratio | 1.46 | 1.03 |
+| Quick Ratio | 1.25 | 0.84 |
+| Total Debt / Total Equity | 135.8% | 176.5% |
+| LT Debt / Capital | 55.1% | 61.6% |
+| Asset Turnover | 0.457 | 0.468 |
+| Days Inventory (DOH) | 88 | 94 |
+| Days Payable (DPO) | 112 | 109 |
+| Free Cash Flow (USD M) | 5,296 | 4,741 |
+| Return on Equity (normalized) | 45.9% | 38.8% |
+| Return on Assets (normalized) | 13.0% | 9.9% |

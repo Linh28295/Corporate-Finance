@@ -12,7 +12,7 @@ Nguyen Bui Ngoc Linh is a Senior Manager of Operations & Technology Strategy and
 
 Her work spans portfolio governance, change management, Target Operating Model (TOM) design, and financial stewardship — delivering measurable results including **20% cost optimization** and recognition with Prudential's **Alexandrite Award** for her contributions to the Health Strategy and Claims Business Process Re-engineering initiative.
 
-Linh holds a Bachelor of Commerce in Marketing and Management from Curtin Singapore and is pursuing an Executive MBA at the University of Hawaiʻi at Mānoa's Shidler College of Business, focusing on corporate finance, valuation, and enterprise leadership. She is PROSCI-certified in change management.
+Linh holds a Bachelor of Commerce in Marketing and Management from Curtin Singapore and is pursuing an Executive MBA at the University of Hawaiʻi at Mānoa's Shidler College of Business, focusing on corporate finance, valuation, and enterprise leadership. She is PROSCI-certified in change management and proficient in Celonis process mining and advanced financial modeling. Her long-term goal is to shape the future of financial services in Southeast Asia.
 
 ---
 

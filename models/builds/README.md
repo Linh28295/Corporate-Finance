@@ -1,25 +1,28 @@
-# Model Builds
+# models/builds/
 
-Populated, working financial models with live data. These are your Stage 1 templates filled with real company financials — the analytical engine of the project. In professional settings, this is where the actual analysis lives: working models that produce ratio outputs.
+Populated, working financial models with real company financials — the analytical engine of the project.
 
 ## What belongs here
 
-- **Stage 3 populated models** — your ratio template with all financial data entered, formulas computing, and named ranges functional
+- **Stage 3 populated model** — the ratio template filled with audited financials for the selected company, with all ratios auto-computing
+
+## Files
+
+| File | Company | Stage | Years |
+|------|---------|-------|-------|
+| `2026-05-10-coca-cola-financials.xlsx` | The Coca-Cola Company (KO) | Stage 3 | FY2025 + FY2024 |
 
 ## Naming convention
 
 ```
-[lastname]-stage3-[ticker]-ratios.xlsx
+YYYY-MM-DD-{company-slug}-financials.xlsx
 ```
 
-**Examples:**
-- `nguyen-stage3-VNM-ratios.xlsx`
-- `tran-stage3-AAPL-ratios.xlsx`
+**Example:** `2026-05-10-coca-cola-financials.xlsx`
 
-## Requirements
+## Requirements before committing
 
-- All financial statement data entered from 10-K / annual report / audited financials
-- All 25+ ratios computed with working formulas
-- Named ranges populated and pointing to correct cells
-- Market/analyst assumptions sourced and documented
-- For non-U.S. companies: reporting currency and any IFRS/VAS adjustments noted in Notes tab
+- Both FY2025 (current) and FY2024 (prior year / `startYear_*`) columns populated
+- Cover & Instructions tab updated: company, ticker, exchange, currency, units, reporting standard, fiscal year end, source URL
+- No `#REF!`, `#DIV/0!`, or `#NAME?` errors on the Ratios tab
+- Balance sheet balances both years: Total Assets = Total Liabilities + Equity

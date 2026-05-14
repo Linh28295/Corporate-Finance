@@ -1,26 +1,30 @@
-# Model Templates
+# models/templates/
 
-Blank financial model frameworks — structured, formatted, and ready to receive data, but containing no company-specific values. In investment banking, these are the firm's reusable model skeletons (LBO templates, DCF frameworks, comp tables) that analysts populate for each new engagement.
+Instructor-provided blank model frameworks — structured, formatted, and ready to receive data, but containing no company-specific values.
 
 ## What belongs here
 
-- **Stage 1 ratio templates** — your blank accounting ratios workbook built from scratch
-- The template should be fully structured: tabs, headers, named ranges, color coding, formulas — but all data cells empty
+- **Stage 1 ratio template** — the instructor-provided `performance-ratios-template.xlsx`, uploaded unmodified
 
-## Naming convention
+## Files
 
-```
-[lastname]-stage1-ratio-template.xlsx
-```
+| File | Description | Stage |
+|------|-------------|-------|
+| `performance-ratios-template.xlsx` | Instructor-provided accounting ratios workbook | Stage 1 |
 
-**Examples:**
-- `nguyen-stage1-ratio-template.xlsx`
-- `tran-stage1-ratio-template.xlsx`
+## Template architecture
 
-## Best practices
+The provided template includes six tabs:
 
-- **Color coding:** Yellow (inputs), Blue (assumptions), Green (formulas), Gray (outputs)
-- **Named ranges:** Use prefixed conventions — `BAL_`, `INC_`, `CASH_`, `RATIO_`, `startYear_`, `avg_`
-- **Tab structure:** One tab per financial statement; separate inputs from calculations from outputs
-- **Auditability:** Every formula traceable; no hardcoded numbers in formula cells
-- **Notes tab:** Document your layout decisions and named range conventions
+| Tab | Contents |
+|-----|----------|
+| Cover & Instructions | Project overview, named-range key, color-coding legend |
+| Income Statement | Skeleton with `INC_*` named-range placeholders |
+| Balance Sheet | Current and prior year columns (`BAL_*`, `startYear_*`) |
+| Cash Flow | Operating, investing, financing sections (`CASH_*`) |
+| Ratios | All ratio categories — formulas pre-filled, auto-populates from financial statement tabs |
+| Legend | Color-coding key (yellow = inputs, blue = assumptions, green = formulas, gray = outputs) |
+
+## Important
+
+Do not modify this template file. Populate a copy saved to `models/builds/` at Stage 3.

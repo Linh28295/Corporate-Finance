@@ -8,17 +8,13 @@ Strategy & Transformation | Financial Services | Operational Excellence | Value 
 
 ---
 
-Nguyen Bui Ngoc Linh is a Senior Manager of Operations & Technology Strategy and Transformation at Prudential Vietnam, leading enterprise-wide change across a multi-million dollar transformation portfolio. With eight years of progressive experience spanning life insurance, retail, and financial services in Vietnam, she specializes in corporate strategy, process re-engineering, and operating model design.
-
-Her work spans portfolio governance, change management, Target Operating Model (TOM) design, and financial stewardship — delivering measurable results including **20% cost optimization** and recognition with Prudential's **Alexandrite Award** for her contributions to the Health Strategy and Claims Business Process Re-engineering initiative.
-
-Linh holds a Bachelor of Commerce in Marketing and Management from Curtin Singapore and is pursuing an Executive MBA at the University of Hawaiʻi at Mānoa's Shidler College of Business, focusing on corporate finance, valuation, and enterprise leadership. She is PROSCI-certified in change management and proficient in Celonis process mining and advanced financial modeling. Her long-term goal is to shape the future of financial services in Southeast Asia.
+Senior Manager at Prudential Vietnam driving enterprise-wide transformation across a multi-million dollar portfolio — PROSCI-certified change leader with 8 years across insurance, retail, and financial services in Vietnam. Full biography in [BIO.md](BIO.md).
 
 ---
 
 ## Repository
 
-This repository contains coursework, financial models, and professional portfolio artifacts developed as part of **BUS 629: International Corporate Finance** in the Vietnam Executive MBA (VEMBA) program at the Shidler College of Business.
+Coursework, financial models, and professional portfolio artifacts for **BUS 629: International Corporate Finance**, Vietnam Executive MBA (VEMBA) — Shidler College of Business, University of Hawaiʻi at Mānoa.
 
 | Directory | Contents |
 |-----------|----------|
@@ -27,5 +23,6 @@ This repository contains coursework, financial models, and professional portfoli
 | `data/` | Source financial data and provenance notes |
 | `analysis/` | Validation reports and sensitivity analyses |
 | `deliverables/` | Final, presentation-ready outputs |
+| `_course-docs/` | Instructor-provided stage briefs (reference) |
 
 For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md](RESUME.md).

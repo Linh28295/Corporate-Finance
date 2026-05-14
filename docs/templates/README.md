@@ -1,49 +1,32 @@
-# Templates
+# docs/templates/
 
-This directory exists in the BUS-629 course tree as a **structural example** — it shows where templates live in a project repo so you can mirror the same layout in your own portfolio repo.
+Reusable document templates for BUS 629 written deliverables.
 
-## The canonical templates live at the repo root
+## Templates in use
 
-To avoid drift, BUS-629 does not maintain its own copies of the memo and spec templates. The single source of truth is at the repository root:
-
-- **Memo template:** [`../../../../docs/templates/memo-template.md`](../../../../docs/templates/memo-template.md)
-- **Spec template:** [`../../../../docs/templates/spec-template.md`](../../../../docs/templates/spec-template.md)
-- **Prompt log:** [`../../../../docs/templates/prompt-log-template.md`](../../../../docs/templates/prompt-log-template.md)
-- **Portfolio (bio + resume):** [`../../../../docs/templates/portfolio/`](../../../../docs/templates/portfolio/)
-- **Templates README** (frontmatter schema, naming conventions): [`../../../../docs/templates/README.md`](../../../../docs/templates/README.md)
-
-When the underlying templates evolve, every course inherits the change automatically.
-
-## What this directory means for your own repo
-
-When you build your own `Corporate Finance` portfolio repo (Stage 0), you should create a parallel structure:
-
-```
-your-repo/
-└── docs/
-    ├── decisions/      # Memos and decision documents (was docs/memos/)
-    ├── specs/          # Technical specifications
-    ├── plans/          # Project plans
-    └── templates/      # Your personal copies of any templates you adapt
-```
-
-Inside *your* `docs/templates/`, keep:
-
-- A copy of any template you have customized for your own workflow
-- A `README.md` (this file is a model) noting which templates are personal vs. inherited from upstream
-
-If you have not customized a template, you do not need a copy — link directly to the canonical version at the repo root.
+| Template | Used for | Source |
+|----------|----------|--------|
+| Memo template | Stage 2 company selection memo | BUS 629 course repo |
+| Spec template | Stage 4 technical specification | BUS 629 course repo |
 
 ## File naming convention
 
-All memos and specs across this repo follow:
+All memos and specs in this repo follow:
 
 ```
 YYYY-MM-DD-{slug}.md
 ```
 
-Lowercase slug, hyphen-separated, ISO date prefix so files sort chronologically. See the [repo-level templates README](../../../../docs/templates/README.md#file-naming-conventions) for the full table.
+Lowercase slug, hyphen-separated, ISO date prefix so files sort chronologically.
+
+**Examples:**
+- `2026-05-10-nguyen-coca-cola-selection.md` — Stage 2 company selection memo
+- `2026-06-01-nguyen-coca-cola-spec.md` — Stage 4 technical specification
 
 ## YAML frontmatter
 
-Every template has a YAML frontmatter block declaring `template`, `purpose`, `audience`, `fields_required`, and `naming_convention`. When you adapt a template, keep the frontmatter intact — tooling (and the LLM-spec workflow at Stage 4) reads it.
+Every document based on a template includes a YAML frontmatter block with `template`, `purpose`, `audience`, `stage`, `author`, and `date`. Keep the frontmatter intact when adapting templates — it documents analytical intent and is read by the LLM-spec workflow at Stage 4.
+
+## Customizations
+
+No templates have been modified from the course originals. All documents in `docs/decisions/` and `docs/specs/` link back to the canonical course template structure.

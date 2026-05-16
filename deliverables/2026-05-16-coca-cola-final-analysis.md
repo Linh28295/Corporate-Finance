@@ -13,6 +13,23 @@ raw-output: deliverables/2026-05-16-coca-cola-llm-raw.md
 
 ---
 
+## 1. Company & Data Summary
+
+| Field | Detail |
+|-------|--------|
+| **Company** | The Coca-Cola Company |
+| **Ticker / Exchange** | KO / NYSE |
+| **Reporting standard** | U.S. GAAP |
+| **Reporting currency** | USD Millions |
+| **Current year** | FY2025 (ended December 31, 2025) |
+| **Prior year** | FY2024 (ended December 31, 2024) |
+| **Primary data source** | Mergent Online 5-Year Financial Summary (as originally reported), cross-referenced against KO 10-K via SEC EDGAR |
+| **Market data** | Share price $69.43 (Dec 31, 2025, Yahoo Finance); diluted shares 4,313M |
+| **Cost of capital assumption** | 9.0% (WACC; spec-specified) |
+| **Accounting notes** | Treasury stock (−$56,423M FY2025) and AOCI (−$14,105M FY2025) are large negatives reducing book equity below economic equity. Equity method investments ($20,235M) are material non-current assets from bottling partner stakes. Retained earnings are POSITIVE ($80,382M). Template CFO ($5,181M) diverges from reported CFO ($7,408M) due to template simplification; reported figure used for FCF commentary. |
+
+---
+
 ## Validation Checklist
 
 | # | Check | Result |
@@ -121,21 +138,86 @@ Both measures confirm declining asset productivity. Revenue grew 1.9% ($880M) ag
 
 ---
 
-## Strategic Recommendation
+## Strategic Recommendations
 
-Coca-Cola's FY2025 ratio profile supports a **HOLD with selective accumulation** from a long-term fundamentals perspective. The business is a genuine value creator generating $8,444M in EVA and 30.2% operating margins, yet three considerations temper a strong buy:
+Five actionable recommendations, each grounded in specific model ratios and assessed against the LLM raw output.
 
-**Supporting the case:**
-- EVA of $8,444M demonstrates the business generates returns comfortably above the 9% cost of capital — a quality test that many large-cap consumer staples fail in mature markets.
-- ROE of 52.9% reflects exceptional profitability, amplified by disciplined leverage deployment rather than unsustainable financial engineering.
-- TIE of 8.45x confirms the debt load is well-serviced; there is no near-term credit risk at current earnings levels.
+---
 
-**Material risk:**
-The leverage ratio of 3.26x and total debt ratio of 69.3% mean equity holders absorb all the downside amplification that leverage currently delivers to the upside. A 20% contraction in EBIT — plausible in a scenario of sustained volume decline plus commodity cost pressure — would compress TIE from 8.45x toward ~6.8x, still manageable, but reducing the margin of safety. The quick ratio of 0.89x is a secondary signal: near-term liquidity depends on continued access to capital markets and steady operating cash flow generation.
+**Recommendation 1: Maintain investment-grade credit discipline — do not expand leverage further.**
 
-**On H3 (asset turnover):** The FY2025 decline appears partly transitional — the $4.6B surge in other current assets is likely a short-term investment reallocation, not permanent operating asset inflation. However, if Coca-Cola's continued investment in emerging market production and distribution capacity does not yield revenue acceleration within two fiscal years, the turnover trend becomes structural, and the current premium valuation (9.28x book) will be increasingly difficult to justify.
+*Data support:* Total debt ratio 69.3%, D/E 1.41x, TIE 8.45x, debt burden 0.906. The 8.45x TIE provides strong headroom, but the 69.3% total debt ratio means equity holders absorb all downside amplification. A 20% EBIT contraction (plausible in a sustained volume-decline scenario) would compress TIE to ~6.8x — still above covenant thresholds but narrowing the margin of safety. Incremental debt should only be used for capital returns (buybacks, dividends), not for operational scaling.
 
-**Watch in FY2026:** Asset turnover on Mergent's period-end basis. A recovery above 0.468x (FY2024 level) would signal that revenue growth has re-engaged with capital investment and would support continued confidence in the profitability outlook. A further decline below 0.45x would warrant a reassessment of the growth thesis.
+*LLM assessment:* The raw output correctly identified TIE and debt burden as the key leverage metrics and correctly concluded leverage is manageable. However, it did not quantify the downside scenario (20% EBIT stress test). A human analyst with knowledge of KO's operating leverage would add that sensitivity explicitly. **LLM: mostly correct, missing stress scenario.**
+
+---
+
+**Recommendation 2: Address asset turnover before it becomes a valuation headwind.**
+
+*Data support:* Asset turnover 0.477x (model, prior-year denominator), 0.457x (Mergent, period-end). Revenue grew 1.9% ($880M); total assets grew 4.2% ($4,267M). At this rate, ROA faces structural pressure even if margins hold: ROA = margin × turnover, and declining turnover directly reduces ROA regardless of margin strength. Management should set an internal asset productivity floor and screen capital projects against it before approval.
+
+*LLM assessment:* The raw output correctly flagged declining asset turnover (H3 confirmed). It correctly noted the $4.6B surge in other current assets as likely transitional. However, it did not connect the turnover trend directly to ROA sensitivity — a key insight for a board-level recommendation. **LLM: directionally correct, incomplete causal chain.**
+
+---
+
+**Recommendation 3: Deploy cash reserves into high-margin adjacencies, not scale acquisitions.**
+
+*Data support:* Cash & short-term investments $15,806M; cash ratio 0.74x; current ratio 1.46x. KO holds significant liquidity relative to peers (35% cash/debt vs. PEP 19%). This buffer has opportunity cost if held passively. The margin profile (gross margin 61.6%, net margin 27.4%) argues for adjacency investments that preserve the asset-light model — premium non-alcoholic beverages, functional hydration — rather than manufacturing or distribution acquisitions that would compress margins toward PepsiCo's 54.5% gross margin.
+
+*LLM assessment:* The raw output noted strong liquidity but made no specific deployment recommendation. It did not connect liquidity strength to opportunity cost or suggest specific strategic uses. This is a gap where human industry judgment adds material value. **LLM: incomplete — flagged cash position but drew no strategic conclusion.**
+
+---
+
+**Recommendation 4: Protect the franchise model — resist backward integration into bottling.**
+
+*Data support:* Operating profit margin 30.2%; gross margin 61.6%. These margins exist because KO does not own bottling at scale. Any strategic move toward vertical integration would absorb capital into lower-margin manufacturing and distribution, compressing gross margin toward the bottler-integrated peer average (~54%). The current EVA of $8,444M would erode if the capital base expands without equivalent return improvement.
+
+*LLM assessment:* The raw output did not address this risk at all — it interpreted margins as a strength without examining the structural threat of integration. A human analyst covering beverage industry M&A would flag this as the primary strategic risk to KO's margin profile. **LLM: silent on this recommendation — required human judgment.**
+
+---
+
+**Recommendation 5: Monitor FY2026 operating margin for structural vs. cyclical confirmation.**
+
+*Data support:* Operating profit margin improved +530bp YoY (24.9% → 30.2%). The FY2024 baseline was depressed by $3.1B in restructuring and impairment charges (included in "Other Operating Expenses"). FY2025's 30.2% may partially reflect one-time charge reversal rather than genuine margin expansion. If FY2026 margins hold above 29%, the improvement is structural. If they revert toward 26–27%, the FY2024 charges were masking an underlying margin trend that requires fresh attention.
+
+*LLM assessment:* The raw output correctly noted the FY2024 restructuring charges as the driver of margin improvement and flagged the year-over-year comparability issue. This was one of the LLM's strongest analytical moments — it applied the accounting context correctly without being explicitly prompted. **LLM: correct and well-reasoned on this point.**
+
+---
+
+## LLM Evaluation & Annotations
+
+**What the LLM executed correctly:**
+- All 8 validation checks computed correctly from spec inputs; no arithmetic errors detected.
+- Du Pont decomposition (42.6%) matched the spec-provided expected value exactly; time-period mismatch was explained clearly as pre-specified in the spec.
+- H1 (EVA), H2 (leverage), H3 (asset turnover) were evaluated against explicit thresholds and all three verdicts matched the student's own Stage 3 analysis.
+- FY2024 restructuring charge context was correctly applied to the margin trend analysis.
+- Ratio organization across six categories (Performance, Profitability, Efficiency, Leverage, Liquidity, Du Pont) matched the spec's required structure.
+
+**Where the LLM deviated or oversimplified:**
+- **No stress testing:** The LLM declared leverage "manageable" without quantifying what a downside scenario looks like. A 20% EBIT stress test would have strengthened the recommendation significantly.
+- **No capital deployment recommendation:** Strong liquidity was noted but not converted into an actionable suggestion — the LLM described the position but did not prescribe what to do with it.
+- **Strategic recommendations were narrative, not numbered:** The raw output's "recommendation" section read as a paragraph rather than distinct, prioritized action items — which is why the evaluated final adds explicit numbering and LLM assessment per item.
+- **Vertical integration risk was not raised:** The LLM had no mechanism to raise an industry-specific structural risk (backward integration into bottling) that was not in the spec. This is the clearest example of what spec-driven LLM execution cannot replace: analyst judgment about threats that don't show up in the ratio numbers.
+
+**What context a human analyst catches that the LLM missed:**
+The LLM processed the spec correctly but could not add: (1) the competitive context of KO vs. PEP's integrated model as a causal explanation for margin spread, (2) the franchise model's vulnerability to integration temptation during periods of volume pressure, and (3) the difference between "leverage is currently manageable" and "leverage creates asymmetric downside exposure." These require industry knowledge and strategic judgment that cannot be encoded in a ratio spec.
+
+**Spec gaps vs. LLM limitations:**
+The CFO gap ($5,181M template vs. $7,408M reported) is a spec gap — the template simplification was not adequately explained in the spec, producing a dead-end metric in the raw output. The missing stress test and integration risk are LLM limitations — they require judgment inputs the spec cannot fully specify. The strategic recommendation structure (3–5 numbered items with LLM assessment) was not enforced in the spec's output format instructions, which is why the raw output delivered narrative rather than structure.
+
+---
+
+## Executive Justification
+
+*This is my own investment and strategic thesis — not the LLM's.*
+
+Coca-Cola is one of the clearest demonstrations in global equities of what a structurally superior business model looks like when measured through ratio analysis. The 61.6% gross margin is not luck and not a single-year outcome — it is the direct consequence of owning the recipe and the brand while outsourcing capital-intensive manufacturing and distribution to franchised bottlers. This decision, made over decades, is visible in every profitability ratio: net margin 27.4%, ROC 21.6% (2.4× the cost of capital), EVA $8,444M. These are not metrics that appear by accident.
+
+The leverage concern — total debt ratio 69.3%, D/E 1.41x — is real but properly contextualized. A business generating $8,444M of EVA with TIE of 8.45x is not in financial distress; it is using leverage deliberately to amplify returns to shareholders. The risk is tail risk: if volume declines and commodity costs spike simultaneously, the amplification works in both directions. This is not a reason to avoid KO; it is a reason to own it at a sensible entry valuation and not mistake financial leverage for fundamental weakness.
+
+The one genuine concern I hold — and which the ratio data confirms — is H3: asset turnover declining as the asset base grows faster than revenue. At 0.457x (Mergent) vs. 0.468x a year ago, the trend is small but directionally clear. KO's ability to grow revenue at a rate that justifies its $104B asset base and $330B market capitalization is the central long-term question. The franchise model's answer has historically been yes. FY2026 asset turnover will tell us whether the FY2025 decline was transitional or the beginning of a structural efficiency erosion.
+
+**Verdict:** Hold with conviction for investors with a 3–5 year horizon. The franchise model moat is intact, EVA is strongly positive, and leverage is manageable. The asset turnover trend is the key metric to watch — not because it threatens the business today, but because sustained erosion would ultimately pressure the premium valuation (9.28x book, 6.9x revenue in peer context) that the market currently assigns to KO's margin quality.
 
 ---
 

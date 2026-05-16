@@ -28,8 +28,8 @@ Bachelor of Commerce, Marketing and Management · September 2017
 - Lead Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting abstract goals into measurable, executable action plans
 
 **Financial Stewardship & Operational Excellence**
-- Oversee USD 50M BAU and investment budget governance, delivering USD 10M+ in cost savings through proactive financial control, cost discipline, and resource optimisation
-- Spearhead Business Process Re-engineering (BPR) using Celonis process mining to identify bottlenecks, eliminate waste, and measurably improve organisational performance
+- Oversee USD 50M BAU and investment budget governance, realising USD 10M+ in cost savings through a structured optimisation programme — eliminating non-value-adding activities, renegotiating vendor contracts, and redesigning operating models
+- Deploy Celonis process mining to map end-to-end processes, surface inefficiencies, and generate data-driven insights that underpin operational improvement and strategic decisions
 - Synthesise cross-functional performance data into executive-ready insights, directly informing C-suite decisions on resource allocation and strategic priorities
 
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  

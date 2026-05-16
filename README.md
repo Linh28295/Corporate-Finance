@@ -1,7 +1,7 @@
 # Nguyen Bui Ngoc Linh
 
 **Senior Manager, Operations & Technology Strategy & Transformation — Prudential Vietnam**  
-Strategy & Transformation | Financial Services | Operational Excellence | Value Creation
+Corporate Strategy | Business Transformation | Financial Services | Operational Excellence
 
 📧 nguyenbuingoclinh546@gmail.com · 📞 +84 9677 99 546 · Ho Chi Minh City, Vietnam  
 [Resume](RESUME.md) | [Full Bio](BIO.md)

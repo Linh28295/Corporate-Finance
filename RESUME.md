@@ -31,24 +31,28 @@ Bachelor of Commerce, Marketing and Management · September 2017
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
 *Manager, Corporate Strategy* · October 2021 – March 2024
 
-- Led strategic planning, business performance tracking, and cross-functional coordination for enterprise-wide initiatives
-- Identified and executed business transformation opportunities, improving efficiency, governance, and operational effectiveness
-- Established reporting and governance routines to monitor progress, risks, dependencies, and action plans
-- Collaborated with finance, operations, and technology teams to ensure execution alignment and proactive issue resolution
+- Owned the enterprise-wide strategic planning cycle — translated company-level ambition into annual business plans, functional priorities, and measurable KPIs aligned with ExCo direction
+- Conducted competitive landscape analysis and market intelligence to inform strategic positioning, opportunity sizing, and investment prioritization across business units
+- Developed executive strategy presentations and board-level reporting materials, synthesizing complex cross-functional data into clear strategic narratives for senior leadership
+- Identified and assessed business transformation opportunities — evaluated feasibility, business case, and strategic fit before escalating for executive approval and resource allocation
+- Established governance rhythms (strategy reviews, performance tracking, risk and dependency reporting) to maintain accountability from planning through execution
+- Served as the connective layer between strategy and operations — coordinating finance, technology, and business unit teams to resolve blockers and sustain execution momentum
 
 **AIA Vietnam** — Ho Chi Minh City, Vietnam  
 *Supervisor, Business Strategy* · September 2020 – September 2021
 
-- Supported business and operational initiatives focused on performance improvement and execution discipline
-- Collaborated with internal stakeholders to enhance planning, reporting, and process efficiency
-- Contributed analytical and coordination expertise to support executive decision-making and delivery outcomes
+- Supported the annual strategic planning process, consolidating business unit inputs into company-wide performance plans and tracking frameworks
+- Produced strategy and performance reporting for senior management, enabling data-driven decision-making on resource allocation and initiative prioritization
+- Analyzed operational and business performance metrics to surface strategic insights and recommend corrective actions to leadership
+- Collaborated across functions to improve planning processes, reporting efficiency, and governance discipline in support of strategic execution
 
 **PNJ Group** — Ho Chi Minh City, Vietnam  
 *Management Trainee & Assistant to Chief Strategy Officer* · July 2018 – September 2020
 
-- Contributed to commercial and operational improvement initiatives that enhanced business effectiveness across a leading jewelry retail group
-- Completed structured rotations in Sales (customer engagement, market insights), Strategy (business planning, competitive analysis), and Marketing (brand positioning, campaign execution)
-- Developed stakeholder management capabilities and business acumen in a dynamic, multi-function corporate environment
+- Worked directly with the Chief Strategy Officer on business planning, competitive analysis, and strategic initiative tracking — gaining early exposure to C-suite strategy development at one of Vietnam's leading retail groups
+- Supported the preparation of strategy documents, executive presentations, and market research used in senior leadership and board-level discussions
+- Completed structured rotations across Strategy (business planning, competitive intelligence), Sales (customer insights, market analysis), and Marketing (brand positioning, campaign execution)
+- Built foundational business acumen and cross-functional stakeholder management skills in a fast-paced, multi-business-unit corporate environment
 
 ---
 

@@ -21,11 +21,16 @@ Bachelor of Commerce, Marketing and Management · September 2017
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
 *Senior Manager, Operations & Technology Strategy & Transformation* · March 2024 – Present
 
-- Lead a multi-year, USD 10M annual transformation portfolio, aligning operational and technology initiatives with Executive Committee priorities and governance standards
-- Design Target Operating Models (TOM) and roadmaps for major strategic shifts, converting executive ambition into measurable, executable action plans
-- Delivered USD 10M+ in cost savings through process re-engineering and operating model refinement, across a USD 50M BAU and investment budget governance remit
-- Drive Business Process Re-Engineering (BPR) using Celonis process mining to eliminate bottlenecks and improve organisational performance
-- Orchestrate end-to-end change management and communications, securing organisational buy-in across large-scale enterprise transformation initiatives
+**Strategic Planning & Portfolio Oversight**
+- Drive a USD 10M annual transformation roadmap, aligning operational and technology initiatives with enterprise-wide strategic priorities and Executive Committee (ExCo) expectations
+- Govern a comprehensive transformation portfolio across business units, ensuring rigorous delivery against milestones and sustaining execution accountability through structured governance rhythms
+- Orchestrate end-to-end change management and communication strategies, ensuring organisational buy-in for large-scale transformation efforts
+- Lead Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting abstract goals into measurable, executable action plans
+
+**Financial Stewardship & Operational Excellence**
+- Oversee USD 50M BAU and investment budget governance, delivering USD 10M+ in cost savings through proactive financial control, cost discipline, and resource optimisation
+- Spearhead Business Process Re-engineering (BPR) using Celonis process mining to identify bottlenecks, eliminate waste, and measurably improve organisational performance
+- Synthesise cross-functional performance data into executive-ready insights, directly informing C-suite decisions on resource allocation and strategic priorities
 
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
 *Manager, Corporate Strategy* · October 2021 – March 2024

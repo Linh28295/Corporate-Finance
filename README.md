@@ -39,6 +39,7 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 | Stage 3 | Populated financials — FY2025 + FY2024 | ✅ Complete |
 | Stage 4 | Technical specification (11 sections) | ✅ Complete |
 | Stage 5 | LLM analysis + evaluation + repo polish | ✅ Complete |
+| Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete |
 
 **Company:** The Coca-Cola Company · KO: NYSE · FY2025 (Jan–Dec 2025)  
-**Key files:** `models/builds/2026-05-10-coca-cola-financials.xlsx` · `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` · `deliverables/2026-05-16-coca-cola-final-analysis.md`
+**Key files:** `models/builds/2026-05-10-coca-cola-financials.xlsx` · `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` · `deliverables/2026-05-16-coca-cola-final-analysis.md` · `deliverables/2026-05-16-coca-cola-peer-comparison.md`

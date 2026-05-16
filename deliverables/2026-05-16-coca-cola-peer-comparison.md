@@ -134,6 +134,59 @@ The peer benchmarking validates and extends three conclusions from the single-co
 
 ---
 
+## 7. Strategic Recommendation
+
+### Overall Stance: Maintain and Extend the Margin Moat
+
+**Recommendation: Hold with conviction; prioritize capital discipline over revenue scale.**
+
+The peer benchmarking confirms that Coca-Cola's competitive advantage is structural, not cyclical. With the highest gross margin (61.6%), highest net margin (27.3%), and strongest cash position relative to debt (35%) in the SIC 2080 peer group, KO's priority should be defending the franchise model economics that generate these outcomes — not chasing PepsiCo's revenue scale.
+
+---
+
+### Strategic Priorities for KO Management
+
+**1. Protect the franchise margin architecture — resist integration temptation.**
+
+The 18.6 percentage-point net margin gap over PepsiCo (27.3% vs. 8.8%) exists precisely because Coca-Cola does not own bottling operations at scale. Any strategic move toward backward integration (acquiring bottlers, owning distribution infrastructure) would compress gross margins toward PEP's 54.5% and erode the structural advantage that justifies KO's 6.9x revenue multiple. Management should hold the line on the asset-light concentrate model and resist growth-by-acquisition in manufacturing.
+
+**2. Deploy the $15,806M cash position into premium category expansion.**
+
+KO holds the strongest cash-to-debt ratio in the peer set (35% vs. PEP 19%, KDP 6%, STZ <1%). This liquidity buffer, while prudent, represents an opportunity cost if held passively. Peer evidence suggests the high-return deployment is adjacent premium categories — Brown-Forman (BF.B) achieves 20.6% net margin in premium spirits; Constellation Brands (STZ) achieves 38.2% EBITDA margin in premium alcohol. KO's brand equity and global distribution could support premium non-alcoholic adjacencies (functional beverages, premium hydration, health-positioned categories) without integration risk. Targeted M&A in the $500M–$3,000M range — funded from cash, not leverage — would preserve the balance sheet while expanding high-margin revenue streams.
+
+**3. Address the asset turnover trend before it becomes a valuation headwind.**
+
+H3 (confirmed in Stage 5) showed asset turnover declining as KO's asset base grows faster than revenue. At 0.477x, KO's turnover is already the lowest efficiency metric in the peer comparison. The market is currently rewarding KO's margin quality over its asset productivity (6.9x revenue multiple), but this tolerance is not unlimited. If total assets continue compounding at a faster rate than revenue through FY2026–FY2027, the Du Pont ROE decomposition will weaken even if margins hold. Management should set an internal asset turnover floor — a reasonable target given peer data is **0.50x by FY2027** — and screen capital projects against that hurdle before approval.
+
+**4. Use moderate leverage deliberately, not defensively.**
+
+At 1.41x D/E, KO is below PepsiCo (2.41x) despite having 3x PEP's net margin — meaning KO has significantly more per-dollar earnings headroom to service incremental debt. There is room to use leverage strategically for share buybacks or dividend increases, which would improve ROE without touching operations. However, leverage should not be increased to fund revenue-dilutive acquisitions. The discipline is: more leverage only if it returns capital to shareholders or acquires high-margin assets; zero leverage increase for scale-building in low-margin categories.
+
+---
+
+### Risk to Watch: Valuation Multiple Compression
+
+KO's 6.9x revenue multiple — 3x PEP's 2.3x — is the metric most vulnerable to disappointment. This premium is priced on the expectation that KO's gross and net margin superiority is permanent. Two scenarios could compress the multiple toward the peer average (3.6x):
+
+1. **Margin erosion** — if commodity input costs (sugar, aluminum, PET) or franchise renegotiations squeeze gross margin below 58%, the market would re-rate KO toward KDP's 2.1x multiple, implying a potential market cap reduction of $150B+.
+2. **Revenue growth stagnation** — KO's P/E (25.2x) is near parity with PEP (26.2x) despite superior margins; the market is not paying an earnings quality premium. If KO cannot grow revenue at a rate commensurate with its asset base expansion, the asset turnover decline will eventually pressure the P/E multiple as well.
+
+**FY2026 monitoring metric:** Gross margin ≥ 60% AND asset turnover ≥ 0.48x. If both hold, the investment thesis remains intact. If either breaks, reassess leverage and capital deployment strategy.
+
+---
+
+### Peer-Benchmarked Summary
+
+| Strategic Action | Rationale from Peer Data | Priority |
+|-----------------|--------------------------|----------|
+| Defend franchise model (no bottler integration) | KO gross margin 61.6% vs. PEP 54.5% — integration destroys 7pp | **Critical** |
+| Deploy cash into premium adjacencies | $15,806M cash; BF.B/STZ prove premium categories earn 33–38% EBITDA | **High** |
+| Set asset turnover floor of 0.50x by FY2027 | Turnover declining; peer context shows market forgiveness is finite | **High** |
+| Strategic leverage for buybacks/dividends only | KO at 1.41x D/E is conservative vs. PEP 2.41x at far lower margins | **Medium** |
+| Monitor gross margin ≥ 60% as valuation anchor | 6.9x revenue multiple at risk if margin slips toward peer average | **Ongoing** |
+
+---
+
 ## 6. Source Documentation
 
 | Item | Detail |

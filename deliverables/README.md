@@ -6,6 +6,7 @@ Final, presentation-ready outputs. Only polished, reviewed work lands here — e
 
 | File | Stage | Description |
 |------|-------|-------------|
+| `Nguyen-Bui-Ngoc-Linh-CV.pdf` | Profile | Professional CV — A4, print-ready |
 | `2026-05-16-coca-cola-llm-raw.md` | Stage 5 | Unedited LLM output executing Stage 4 spec — all 29 ratios, Du Pont, H1/H2/H3 verdicts |
 | `2026-05-16-coca-cola-final-analysis.md` | Stage 5 | Evaluated final analysis with spec retrospective and updated prompt log |
 | `2026-05-16-coca-cola-peer-comparison.md` | Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) |

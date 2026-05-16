@@ -58,6 +58,9 @@ Bachelor of Commerce, Marketing and Management · September 2017
 
 ## Honors & Awards
 
+**Talent Group** · Prudential Vietnam Assurance · 2025 & 2026  
+Selected as part of PVA's Talent Group for two consecutive years — identifying high-potential leaders nominated for accelerated development and strategic leadership opportunities.
+
 **Alexandrite Award — BPR for Claims** · Prudential Vietnam · January 2026  
 Awarded for leading Claims Business Process Re-Engineering (BPR) using Celonis process mining and data-driven insights to significantly enhance delivery speed and accuracy.
 

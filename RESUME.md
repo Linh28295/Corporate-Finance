@@ -58,8 +58,11 @@ Bachelor of Commerce, Marketing and Management · September 2017
 
 ## Honors & Awards
 
-**Alexandrite Award** — Prudential Vietnam · 2025  
-Recognized for pivotal contributions to the Health Strategy and Claims Business Process Re-engineering initiative, significantly enhancing delivery speed and accuracy.
+**Alexandrite Award — BPR for Claims** · Prudential Vietnam · January 2026  
+Awarded for leading Claims Business Process Re-Engineering (BPR) using Celonis process mining and data-driven insights to significantly enhance delivery speed and accuracy.
+
+**Alexandrite Award — Health Strategy** · Prudential Vietnam · December 2024  
+Recognised by Group and Executive Committee for delivering the Health Strategy, including Target Operating Model design and core technology roadmap (2024–2030).
 
 ---
 

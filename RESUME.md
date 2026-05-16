@@ -21,12 +21,11 @@ Bachelor of Commerce, Marketing and Management · September 2017
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
 *Senior Manager, Operations & Technology Strategy & Transformation* · March 2024 – Present
 
-- Drive a multi-year transformation roadmap across a multi-million dollar portfolio, aligning operational and technological initiatives with Executive Committee (ExCo) expectations
-- Govern enterprise-wide transformation portfolio, ensuring rigorous delivery against milestones and institutionalizing execution discipline across business units
-- Lead Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting executive priorities into measurable, executable action plans
-- Oversee multi-million dollar budget planning and governance (BAU and Investment), delivering **20% cost optimization** through process re-engineering and operating model refinement
-- Spearhead Business Process Re-engineering (BPR) using Celonis process mining to identify bottlenecks and streamline organizational performance
-- Orchestrate end-to-end change management and communication strategies, ensuring organizational buy-in across large-scale transformation initiatives
+- Lead a multi-year, USD 10M annual transformation portfolio, aligning operational and technology initiatives with Executive Committee priorities and governance standards
+- Design Target Operating Models (TOM) and roadmaps for major strategic shifts, converting executive ambition into measurable, executable action plans
+- Delivered USD 10M+ in cost savings through process re-engineering and operating model refinement, across a USD 50M BAU and investment budget governance remit
+- Drive Business Process Re-Engineering (BPR) using Celonis process mining to eliminate bottlenecks and improve organisational performance
+- Orchestrate end-to-end change management and communications, securing organisational buy-in across large-scale enterprise transformation initiatives
 
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
 *Manager, Corporate Strategy* · October 2021 – March 2024
@@ -41,10 +40,9 @@ Bachelor of Commerce, Marketing and Management · September 2017
 **AIA Vietnam** — Ho Chi Minh City, Vietnam  
 *Supervisor, Business Strategy* · September 2020 – September 2021
 
-- Supported the annual strategic planning process, consolidating business unit inputs into company-wide performance plans and tracking frameworks
-- Produced strategy and performance reporting for senior management, enabling data-driven decision-making on resource allocation and initiative prioritization
-- Analyzed operational and business performance metrics to surface strategic insights and recommend corrective actions to leadership
-- Collaborated across functions to improve planning processes, reporting efficiency, and governance discipline in support of strategic execution
+- Consolidated strategic inputs across all business units into a unified company performance plan and KPI framework adopted for senior leadership review
+- Delivered monthly strategy and performance reporting to C-suite, directly informing resource allocation and initiative prioritisation decisions
+- Identified performance gaps through business metrics analysis and surfaced corrective recommendations adopted by leadership
 
 **PNJ Group** — Ho Chi Minh City, Vietnam  
 *Management Trainee & Assistant to Chief Strategy Officer* · July 2018 – September 2020
@@ -72,6 +70,6 @@ Recognised by Group and Executive Committee for delivering the Health Strategy, 
 ## Skills & Certifications
 
 **Languages:** Vietnamese (Native) · English (Professional Working Proficiency)  
-**Technical:** Advanced Excel · PowerPoint · Celonis (Process Mining) · Data Analysis · Process Mapping (BPR) · Dashboard Reporting · PMO Tracking Tools  
+**Technical:** Celonis Process Mining · Process Mapping (BPR) · Data Analysis · PMO Tracking Tools · Advanced Excel · PowerPoint  
 **Certifications:** PROSCI Taking Charge of Change (May 2025)  
-**Core Competencies:** Corporate Strategy · Business Transformation · Portfolio Governance · PMO/Program Management · Change Management · Target Operating Model Design · Financial Governance · Cross-functional Leadership
+**Core Competencies:** Corporate Strategy · Business Transformation · Portfolio Governance · Change Management · TOM Design · Financial Governance · Cross-functional Leadership · Stakeholder Management · Executive Communication · Strategic Storytelling

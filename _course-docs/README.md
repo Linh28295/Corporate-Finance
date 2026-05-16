@@ -12,3 +12,4 @@ Reference copies of BUS 629 course assignment briefs. Kept here rather than at t
 | [`stage3-model-population-validation.md`](stage3-model-population-validation.md) | Stage 3 — Populated financials |
 | [`stage4-technical-specification.md`](stage4-technical-specification.md) | Stage 4 — LLM-drafted technical specification |
 | [`stage5-llm-analysis-evaluation.md`](stage5-llm-analysis-evaluation.md) | Stage 5 — LLM analysis, evaluation, and repo polish |
+| [`2026-04-03-bus629-accounting-ratios-project-design.md`](2026-04-03-bus629-accounting-ratios-project-design.md) | Instructor project design decision memo (Prof. Stauffer, v0.4) |

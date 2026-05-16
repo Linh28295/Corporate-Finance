@@ -26,3 +26,19 @@ Coursework, financial models, and professional portfolio artifacts for **BUS 629
 | `_course-docs/` | Instructor-provided stage briefs (reference) |
 
 For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md](RESUME.md).
+
+---
+
+## Project Status — BUS 629 Performance Ratios (Coca-Cola / KO)
+
+| Stage | Deliverable | Status |
+|-------|-------------|--------|
+| Stage 0 | Repo setup — BIO, RESUME, LICENSE, directory skeleton | ✅ Complete (98.22%) |
+| Stage 1 | Excel template in `models/templates/` | ✅ Complete |
+| Stage 2 | Company selection memo — Coca-Cola (KO) | ✅ Complete (92%) |
+| Stage 3 | Populated financials — FY2025 + FY2024 | ✅ Complete |
+| Stage 4 | Technical specification (11 sections) | ✅ Complete |
+| Stage 5 | LLM analysis + evaluation + repo polish | ✅ Complete |
+
+**Company:** The Coca-Cola Company · KO: NYSE · FY2025 (Jan–Dec 2025)  
+**Key files:** `models/builds/2026-05-10-coca-cola-financials.xlsx` · `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` · `deliverables/2026-05-16-coca-cola-final-analysis.md`

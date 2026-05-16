@@ -134,6 +134,19 @@ The peer benchmarking validates and extends three conclusions from the single-co
 
 ---
 
+## 6. Source Documentation
+
+| Item | Detail |
+|------|--------|
+| Source file | `data/nguyen/2026-04-04-coca-cola-industry-peers-mergent.xlsx` |
+| Report name | Mergent IndustryPeers_2026-04-04 |
+| SIC code | 2080 — Beverages |
+| Data vintage | TTM as of April 2026 |
+| KO data reconciliation | KO figures match Stage 3 model: Revenue $47,941M ✓, Gross Margin 61.6% ✓, Net Income $13,107M ✓ (vs. model $13,137M; $30M rounding difference), Total Debt $45,492M (= $42,119M LTD + $3,373M STD ✓) |
+| Market cap note | Mergent reports KO market cap of $330,215M (April 2026 price); Stage 3 model computed $298,627M using Dec 31, 2025 close ($69.43). The $31,588M difference reflects share price appreciation from Dec 31 to April 4 ($~76.7 implied vs. $69.43). |
+
+---
+
 ## 7. Strategic Recommendation
 
 ### Overall Stance: Maintain and Extend the Margin Moat
@@ -184,16 +197,3 @@ KO's 6.9x revenue multiple — 3x PEP's 2.3x — is the metric most vulnerable t
 | Set asset turnover floor of 0.50x by FY2027 | Turnover declining; peer context shows market forgiveness is finite | **High** |
 | Strategic leverage for buybacks/dividends only | KO at 1.41x D/E is conservative vs. PEP 2.41x at far lower margins | **Medium** |
 | Monitor gross margin ≥ 60% as valuation anchor | 6.9x revenue multiple at risk if margin slips toward peer average | **Ongoing** |
-
----
-
-## 6. Source Documentation
-
-| Item | Detail |
-|------|--------|
-| Source file | `data/nguyen/2026-04-04-coca-cola-industry-peers-mergent.xlsx` |
-| Report name | Mergent IndustryPeers_2026-04-04 |
-| SIC code | 2080 — Beverages |
-| Data vintage | TTM as of April 2026 |
-| KO data reconciliation | KO figures match Stage 3 model: Revenue $47,941M ✓, Gross Margin 61.6% ✓, Net Income $13,107M ✓ (vs. model $13,137M; $30M rounding difference), Total Debt $45,492M (= $42,119M LTD + $3,373M STD ✓) |
-| Market cap note | Mergent reports KO market cap of $330,215M (April 2026 price); Stage 3 model computed $298,627M using Dec 31, 2025 close ($69.43). The $31,588M difference reflects share price appreciation from Dec 31 to April 4 ($~76.7 implied vs. $69.43). |

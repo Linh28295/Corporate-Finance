@@ -54,6 +54,23 @@ This file documents the provenance of every data point used in the Stage 3 finan
 
 KO 10-K filings: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO&type=10-K`
 
+---
+
+## Extra Credit Source — Industry Peer Data
+
+| Field | Detail |
+|-------|--------|
+| **Source** | Mergent Online — Industry Peers Report |
+| **Report ID** | IndustryPeers_2026-04-04 |
+| **SIC Code** | 2080 — Beverages |
+| **Peer set** | KO, PEP, KDP, STZ, BF.B (plus 4 micro-caps excluded from analysis) |
+| **Data vintage** | TTM as of April 2026 |
+| **Accessed** | May 16, 2026 |
+| **File** | `data/nguyen/2026-04-04-coca-cola-industry-peers-mergent.xlsx` |
+| **Used in** | `deliverables/2026-05-16-coca-cola-peer-comparison.md` |
+
+---
+
 ## Notes
 
 - All figures reported in USD millions; no currency conversion required

@@ -18,7 +18,7 @@ date: 2026-05-16
 
 ### 1. Scope & Objective
 
-Produce a fully quantified performance ratio analysis of The Coca-Cola Company (KO: NYSE) for fiscal year 2025, benchmarked against fiscal year 2024, using the populated Excel workbook at `models/builds/2026-05-10-coca-cola-financials.xlsx`. The analysis must:
+Produce a fully quantified performance ratio analysis of The Coca-Cola Company (KO: NYSE) for fiscal year 2025, benchmarked against fiscal year 2024, using the populated Excel workbook at `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`. The analysis must:
 
 - Compute and report all ratios defined in Section 6 using the named-range formulas in Section 5.
 - Decompose return on equity via Du Pont and reconcile any discrepancy between the Du Pont and direct ROE calculations.

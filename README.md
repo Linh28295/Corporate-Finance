@@ -36,7 +36,7 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 | Stage 0 | Repo setup — BIO, RESUME, LICENSE, directory skeleton | ✅ Complete (100%) |
 | Stage 1 | Excel template in `models/templates/` | ✅ Complete (100%) |
 | Stage 2 | Company selection memo — Coca-Cola (KO) | ✅ Complete (92%) |
-| Stage 3 | Populated financials — FY2025 + FY2024 | ✅ Complete |
+| Stage 3 | Populated financials — FY2025 + FY2024 | ✅ Complete (75% pre-revision; post-deadline sweep applied 2026-05-17) |
 | Stage 4 | Technical specification (11 sections) | ✅ Complete |
 | Stage 5 | LLM analysis + evaluation + repo polish | ✅ Complete |
 | Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete |

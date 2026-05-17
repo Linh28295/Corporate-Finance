@@ -7,9 +7,9 @@ Final, presentation-ready outputs. Only polished, reviewed work lands here — e
 | File | Stage | Description |
 |------|-------|-------------|
 | `Nguyen-Bui-Ngoc-Linh-CV.pdf` | Profile | Professional CV — A4, print-ready |
-| `2026-05-16-coca-cola-llm-raw.md` | Stage 5 | Unedited LLM output executing Stage 4 spec — all 29 ratios, Du Pont, H1/H2/H3 verdicts |
-| `2026-05-16-coca-cola-final-analysis.md` | Stage 5 | Evaluated final analysis with spec retrospective and updated prompt log |
-| `2026-05-16-coca-cola-peer-comparison.md` | Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) |
+| `2026-05-16-nguyen-coca-cola-llm-raw.md` | Stage 5 | Unedited LLM output executing Stage 4 spec — all 29 ratios, Du Pont, H1/H2/H3 verdicts |
+| `2026-05-16-nguyen-coca-cola-final-analysis.md` | Stage 5 | Evaluated final analysis with spec retrospective and updated prompt log |
+| `2026-05-16-nguyen-coca-cola-peer-comparison.md` | Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) |
 | `prompt-log.md` | Stage 5 | Consolidated 10-entry prompt log across all stages |
 
 ## Naming convention
@@ -19,9 +19,9 @@ YYYY-MM-DD-{company-slug}-{descriptor}.md
 ```
 
 **Examples:**
-- `2026-05-16-coca-cola-llm-raw.md` — raw LLM output
-- `2026-05-16-coca-cola-final-analysis.md` — evaluated final version
-- `2026-05-16-coca-cola-peer-comparison.md` — extra credit peer analysis
+- `2026-05-16-nguyen-coca-cola-llm-raw.md` — raw LLM output
+- `2026-05-16-nguyen-coca-cola-final-analysis.md` — evaluated final version
+- `2026-05-16-nguyen-coca-cola-peer-comparison.md` — extra credit peer analysis
 
 ## What belongs here
 

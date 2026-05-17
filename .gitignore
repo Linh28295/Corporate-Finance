@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Excel temp / lock files
+~$*.xlsx
+~$*.xls
+~$*.docx
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.python-version
+
+# Editor scratch
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS / system
+Thumbs.db
+desktop.ini
+
+# Build artifacts (none currently — placeholder)
+*.log
+
+# Local secrets — none expected, here as a safety net
+.env
+.env.local

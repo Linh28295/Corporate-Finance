@@ -402,7 +402,7 @@ Required structure:
 [Table of all ratios with formula, computed value, and FY2024 benchmark]
 ```
 
-The Appendix table is required and must list every ratio from Section 6 with its computed value and, where available, the FY2024 benchmark from the data reference file (`analysis/validation/2026-05-10-coca-cola-financials-data-reference.md`).
+The Appendix table is required and must list every ratio from Section 6 with its computed value and, where available, the FY2024 benchmark from the data reference file (`analysis/validation/2026-05-10-nguyen-coca-cola-financials-data-reference.md`).
 
 Length target: 1,200–1,800 words excluding the Appendix table. Tone: professional financial analyst memo, not a student essay. No hedging phrases ("I think", "it seems"). State findings directly.
 

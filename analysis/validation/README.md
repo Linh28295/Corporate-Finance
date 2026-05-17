@@ -1,14 +1,16 @@
 # analysis/validation/
 
-Self-audit reports, data reference documents, and validation documentation for Stage 3 model population.
+Self-audit reports, HIL iteration notes, and manual verification artifacts across Stages 3, 4, and 5.
 
 ## Files
 
-| File | Description |
-|------|-------------|
-| `2026-05-17-nguyen-coca-cola-validation-report.md` | Stage 3 validation report — addresses all eight self-audit checklist items (the 200–300 word deliverable per Stage 3 rubric) |
-| `2026-05-10-coca-cola-financials-data-reference.md` | Complete FY2025 + FY2024 financial data reference — all IS, BS, CFS figures with balance checks confirmed |
-| `2026-05-10-coca-cola-stage3-data-guide.md` | Named range mapping guide — links each `INC_*`, `BAL_*`, `CASH_*` range to its 10-K line item with actual values |
+| File | Stage | Description |
+|------|-------|-------------|
+| `2026-05-17-nguyen-coca-cola-validation-report.md` | 3 | Stage 3 self-audit (200–300 word deliverable per Stage 3 rubric, addresses all eight checklist items) |
+| `2026-05-10-nguyen-coca-cola-financials-data-reference.md` | 3 | Complete FY2025 + FY2024 financial data reference — all IS, BS, CFS figures with balance checks |
+| `2026-05-10-nguyen-coca-cola-stage3-data-guide.md` | 3 | Named range mapping guide — links each `INC_*`, `BAL_*`, `CASH_*` range to its 10-K line item |
+| `2026-05-17-nguyen-coca-cola-stage4-iteration.md` | 4 | HIL iteration evidence — four spec gaps identified from Stage 5 LLM output with annotated before/after diffs |
+| `2026-05-17-nguyen-coca-cola-stage5-verification.md` | 5 | Manual verification table — six ratios recomputed by hand vs. LLM output (10% of Stage 5 rubric) |
 
 ## Validation results summary (Stage 3)
 

@@ -10,15 +10,15 @@ Populated, working financial models with real company financials — the analyti
 
 | File | Company | Stage | Years |
 |------|---------|-------|-------|
-| `2026-05-10-coca-cola-financials.xlsx` | The Coca-Cola Company (KO) | Stage 3 | FY2025 + FY2024 |
+| `2026-05-17-nguyen-coca-cola-financials.xlsx` | The Coca-Cola Company (KO) | Stage 3 | FY2025 + FY2024 |
 
 ## Naming convention
 
 ```
-YYYY-MM-DD-{company-slug}-financials.xlsx
+YYYY-MM-DD-{lastname}-{company-slug}-financials.xlsx
 ```
 
-**Example:** `2026-05-10-coca-cola-financials.xlsx`
+**Example:** `2026-05-17-nguyen-coca-cola-financials.xlsx`
 
 ## Requirements before committing
 

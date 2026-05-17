@@ -95,4 +95,4 @@ All financial statements are in English under U.S. GAAP. No translation or accou
 - **Market data:** Closing share price at December 31 each year and diluted shares outstanding for EPS and market-based ratios
 - **No currency conversion required** -- all figures reported in USD millions
 - **GAAP considerations:** Revenue recognition under ASC 606 and lease obligations under ASC 842 noted where they affect ratio comparability
-- **Timeline:** All data sourced from Mergent Online 5-year summary and entered into `models/builds/2026-05-10-coca-cola-financials.xlsx`
+- **Timeline:** All data sourced from Mergent Online 5-year summary and entered into `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`

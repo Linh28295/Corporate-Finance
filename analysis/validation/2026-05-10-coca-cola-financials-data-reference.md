@@ -5,7 +5,7 @@
 **Units:** USD Millions throughout  
 **Reporting Standard:** U.S. GAAP  
 **Fiscal Year End:** December 31  
-**Template target file:** `models/builds/2026-05-10-coca-cola-financials.xlsx`
+**Template target file:** `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`
 
 > Use this document side-by-side with the Excel template. Enter every number exactly as shown. Verify the Balance Sheet check at the end before uploading.
 
@@ -185,7 +185,7 @@ Source: Consolidated Statements of Cash Flows
 - [ ] **Capex** entered as negative
 - [ ] **Dividends paid** entered as negative
 - [ ] **Cover tab** completed: U.S. GAAP, USD millions, FYE Dec 31, FY2025 current / FY2024 prior
-- [ ] File saved as: `models/builds/2026-05-10-coca-cola-financials.xlsx`
+- [ ] File saved as: `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`
 - [ ] Commit message: `Populate Coca-Cola FY2025 + FY2024 financials from Mergent source`
 
 ---

@@ -2,7 +2,7 @@
 ## The Coca-Cola Company (KO) — FY2025 + FY2024
 
 **Template file:** `models/templates/performance-ratios-template.xlsx`  
-**Save populated build as:** `models/builds/2026-05-10-coca-cola-financials.xlsx`  
+**Save populated build as:** `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`  
 **Source:** KO 10-K FY2025 via SEC EDGAR — [edgar.sec.gov](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=KO&type=10-K)  
 **Units:** USD millions  
 **Reporting standard:** U.S. GAAP  
@@ -157,5 +157,5 @@ Source: **Consolidated Statements of Cash Flows** in the 10-K
 - [ ] Capex and dividends entered as **negatives**
 - [ ] Retained earnings entered as **positive**
 - [ ] Cover tab: U.S. GAAP, USD millions, FYE Dec 31, FY2025 current / FY2024 prior
-- [ ] File saved as: `models/builds/2026-05-10-coca-cola-financials.xlsx`
+- [ ] File saved as: `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`
 - [ ] Commit message: `Populate Coca-Cola FY2025 + FY2024 financials from Mergent source`

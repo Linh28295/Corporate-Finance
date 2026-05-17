@@ -19,6 +19,7 @@
 | 2026-05-16 | 3 | "check stage 3 again and compare to requirements" | Full rubric audit; 3 gaps found and fixed | Cover tab student documentation, source URL, CFO reconciliation note, 29 ratio formulas, file renamed |
 | 2026-05-16 | 4 | "stage 4 please" | Drafted 11-section technical specification | docs/specs/2026-05-16-nguyen-coca-cola-spec.md, docs/specs/2026-05-16-nguyen-coca-cola-prompt-log.md |
 | 2026-05-16 | 5 | "sure" | Executed spec; raw + evaluated analysis | deliverables/2026-05-16-coca-cola-llm-raw.md, deliverables/2026-05-16-coca-cola-final-analysis.md |
+| 2026-05-17 | 3 | "fix stage 3 with comment from instructor" | Populated subtotal cached values across BS/IS/CF/Ratios, added `CF_depreciation_amortization` named range, added US GAAP literal to Notes, renamed workbook to `YYYY-MM-DD-nguyen-…` convention | models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx |
 
 ---
 

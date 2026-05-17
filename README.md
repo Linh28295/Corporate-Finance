@@ -42,4 +42,4 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 | Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete |
 
 **Company:** The Coca-Cola Company · KO: NYSE · FY2025 (Jan–Dec 2025)  
-**Key files:** `models/builds/2026-05-10-coca-cola-financials.xlsx` · `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` · `deliverables/2026-05-16-coca-cola-final-analysis.md` · `deliverables/2026-05-16-coca-cola-peer-comparison.md`
+**Key files:** `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx` · `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` · `deliverables/2026-05-16-coca-cola-final-analysis.md` · `deliverables/2026-05-16-coca-cola-peer-comparison.md`

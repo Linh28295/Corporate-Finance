@@ -124,16 +124,14 @@ def build_story():
         "March 2024 – Present",
         [
             ("Strategic Planning &amp; Portfolio Oversight", [
-                "Lead a multi-disciplinary team of 9 across Planning &amp; Transformation, Financial Governance, "
-                "and Change Management — driving a USD 10M annual transformation roadmap aligned with Executive "
-                "Committee (ExCo) priorities and enterprise-wide strategic objectives.",
+                "Lead a multi-disciplinary team of 9 (4 direct reports across Planning &amp; Transformation, "
+                "Financial Governance, and Change Management) driving a USD 10M annual transformation roadmap "
+                "aligned with Executive Committee (ExCo) priorities and enterprise-wide strategic objectives.",
                 "Govern a comprehensive transformation portfolio across business units, ensuring rigorous delivery "
                 "against milestones and sustaining execution accountability through structured governance rhythms.",
-                "Develop and manage 4 direct reports across three functions, building team capability in "
-                "strategic planning, financial governance, and organisational change delivery.",
                 "Orchestrate end-to-end change management and communication strategies, ensuring organisational "
                 "buy-in for large-scale transformation efforts.",
-                "Lead Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, "
+                "Architect Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, "
                 "converting abstract goals into measurable, executable action plans.",
             ]),
             ("Financial Stewardship &amp; Operational Excellence", [

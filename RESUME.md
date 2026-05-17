@@ -22,11 +22,10 @@ Bachelor of Commerce, Marketing and Management · September 2017
 *Senior Manager, Operations & Technology Strategy & Transformation* · March 2024 – Present
 
 **Strategic Planning & Portfolio Oversight**
-- Lead a multi-disciplinary team of 9 across Planning & Transformation, Financial Governance, and Change Management — driving a USD 10M annual transformation roadmap aligned with Executive Committee (ExCo) priorities and enterprise-wide strategic objectives
+- Lead a multi-disciplinary team of 9 (4 direct reports across Planning & Transformation, Financial Governance, and Change Management) driving a USD 10M annual transformation roadmap aligned with Executive Committee (ExCo) priorities and enterprise-wide strategic objectives
 - Govern a comprehensive transformation portfolio across business units, ensuring rigorous delivery against milestones and sustaining execution accountability through structured governance rhythms
-- Develop and manage 4 direct reports across three functions, building team capability in strategic planning, financial governance, and organisational change delivery
 - Orchestrate end-to-end change management and communication strategies, ensuring organisational buy-in for large-scale transformation efforts
-- Lead Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting abstract goals into measurable, executable action plans
+- Architect Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting abstract goals into measurable, executable action plans
 
 **Financial Stewardship & Operational Excellence**
 - Oversee USD 50M BAU and investment budget governance, realising USD 10M+ in cost savings through a structured optimisation programme — eliminating non-value-adding activities, renegotiating vendor contracts, and redesigning operating models

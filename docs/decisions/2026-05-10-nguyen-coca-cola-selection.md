@@ -13,7 +13,7 @@ exchange: NYSE
 # Company Selection Memo
 ## BUS 629: International Corporate Finance -- Stage 2
 
-**To:** Professor Adam Stauffer (acting as Managing Director)  
+**To:** Professor Adam Stauffer (acting as MD)  
 **From:** Nguyen Bui Ngoc Linh  
 **Date:** May 10, 2026  
 **Re:** Company Selection -- The Coca-Cola Company (NYSE: KO)
@@ -22,7 +22,7 @@ exchange: NYSE
 
 ## Executive Summary
 
-I propose **The Coca-Cola Company (NYSE: KO)** for the BUS 629 ratio analysis project. KO's asset-light franchise model and unusually leveraged capital structure make it a strong test case across profitability, leverage, and efficiency ratios. Complete FY2024–FY2025 data is confirmed available; I recommend moving directly to Stage 3 build.
+I propose **The Coca-Cola Company (NYSE: KO)** for the BUS 629 ratio analysis project. KO's asset-light franchise model and unusually leveraged capital structure make it a strong test case across profitability, leverage, and efficiency ratios. With this analytical structure and complete FY2024–FY2025 data, I recommend KO as the project subject and propose moving directly to Stage 3 build.
 
 ---
 

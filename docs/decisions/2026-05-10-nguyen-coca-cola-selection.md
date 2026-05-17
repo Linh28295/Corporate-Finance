@@ -62,11 +62,11 @@ All statements are in English under U.S. GAAP; two full fiscal years (FY2025 + F
 
 ## 4. Preliminary Observations
 
-1. **Leverage will appear elevated but is structurally supported.** D/E above 1.3x driven by treasury stock and AOCI, while interest coverage of ~7–9x remains healthy — the disconnect between accounting leverage and economic risk.
+1. **I expect KO's debt-to-equity ratio to exceed 1.3x while interest coverage holds at ~7–9x**, because large treasury stock (−$56,423M) and AOCI (−$14,105M) compress book equity and inflate optical leverage even though operating cash flow easily services the debt.
 
-2. **Profitability will reflect the franchise premium.** As a concentrate manufacturer (not a bottler), KO should retain gross margin ~62% and operating margin ~30% in FY2025 — well above beverage peers.
+2. **I expect KO to retain gross margin ~62% and operating margin ~30% in FY2025**, because the asset-light concentrate-only franchise model outsources capital-intensive bottling and yields a structural margin premium over fully-integrated beverage peers.
 
-3. **Asset turnover will decline FY2025 vs. FY2024.** The mix shift toward lower-margin still beverages dilutes revenue against a slower-shrinking asset base — a falsifiable prediction directly testable in Stage 3.
+3. **I expect FY2025 asset turnover to decline vs. FY2024**, because the product-mix shift toward lower-margin still beverages dilutes per-unit revenue against a slower-shrinking asset base — a falsifiable prediction directly testable in Stage 3.
 
 ---
 

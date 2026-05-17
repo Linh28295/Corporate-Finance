@@ -31,15 +31,26 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 
 ## Project Status — BUS 629 Performance Ratios (Coca-Cola / KO)
 
-| Stage | Deliverable | Status |
-|-------|-------------|--------|
-| Stage 0 | Repo setup — BIO, RESUME, LICENSE, directory skeleton | ✅ Complete (100%) |
-| Stage 1 | Excel template in `models/templates/` | ✅ Complete (100%) |
-| Stage 2 | Company selection memo — Coca-Cola (KO) | ✅ Complete (92% pre-revision; instructor feedback applied 2026-05-17) |
-| Stage 3 | Populated financials — FY2025 + FY2024 | ✅ Complete (75% pre-revision; post-deadline sweep applied 2026-05-17) |
-| Stage 4 | Technical specification (11 sections) | ✅ Complete |
-| Stage 5 | LLM analysis + evaluation + repo polish | ✅ Complete |
-| Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete |
+| Stage | Deliverable | Status | Latest commit |
+|-------|-------------|--------|---------------|
+| Stage 0 | Repo setup — BIO, RESUME, LICENSE, directory skeleton | ✅ Complete (100%) | `ed71d3e` |
+| Stage 1 | Excel template in `models/templates/` | ✅ Complete (100%) | `ed71d3e` |
+| Stage 2 | Company selection memo — Coca-Cola (KO) | ✅ Complete (92% pre-revision; instructor feedback applied 2026-05-17) | `f7cff2b` |
+| Stage 3 | Populated financials — FY2025 + FY2024 + validation report | ✅ Complete (75% pre-revision; post-deadline sweep applied 2026-05-17) | `f43b4ae` |
+| Stage 4 | Technical specification (11 sections) + HIL iteration evidence | ✅ Complete | `2698f18` |
+| Stage 5 | LLM analysis + manual verification + spec retrospective + repo polish | ✅ Complete | latest |
+| Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete | `2698f18` |
 
-**Company:** The Coca-Cola Company · KO: NYSE · FY2025 (Jan–Dec 2025)  
-**Key files:** `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx` · `analysis/validation/2026-05-17-nguyen-coca-cola-validation-report.md` · `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` · `deliverables/2026-05-16-coca-cola-final-analysis.md` · `deliverables/2026-05-16-coca-cola-peer-comparison.md`
+**Company:** The Coca-Cola Company · KO: NYSE · FY2025 (Jan–Dec 2025)
+
+**Stage 5 deliverable set (all `lastname-{slug}` convention):**
+
+- `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx` — populated Stage 3 workbook
+- `analysis/validation/2026-05-17-nguyen-coca-cola-validation-report.md` — Stage 3 200-word self-audit
+- `analysis/validation/2026-05-17-nguyen-coca-cola-stage4-iteration.md` — Stage 4 HIL iteration evidence
+- `analysis/validation/2026-05-17-nguyen-coca-cola-stage5-verification.md` — Stage 5 manual verification table (6 ratios)
+- `docs/specs/2026-05-16-nguyen-coca-cola-spec.md` — Stage 4 technical specification
+- `deliverables/2026-05-16-nguyen-coca-cola-llm-raw.md` — Stage 5 raw LLM output (unedited)
+- `deliverables/2026-05-16-nguyen-coca-cola-final-analysis.md` — Stage 5 evaluated final analysis
+- `deliverables/2026-05-17-nguyen-coca-cola-spec-retrospective.md` — Stage 5 spec retrospective (6 sections)
+- `deliverables/2026-05-16-nguyen-coca-cola-peer-comparison.md` — Extra Credit peer benchmarking

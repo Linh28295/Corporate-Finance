@@ -6,7 +6,7 @@ stage: 5-final
 date: 2026-05-16
 revised: 2026-05-17  # ratios refreshed to workbook precision (14.42% / 52.85% / 42.57%); V9 added; NI $13,137 vs $13,107 footnote; 4/5 spec effectiveness rating
 spec-version: "1.0 (docs/specs/2026-05-16-nguyen-coca-cola-spec.md) — revised 2026-05-17"
-raw-output: deliverables/2026-05-16-coca-cola-llm-raw.md
+raw-output: deliverables/2026-05-16-nguyen-coca-cola-llm-raw.md
 ---
 
 # Coca-Cola FY2025 Performance Ratio Analysis
@@ -226,26 +226,7 @@ The one genuine concern I hold — and which the ratio data confirms — is H3: 
 
 ## Spec Retrospective
 
-### What the spec did well
-
-1. **Numerical anchors prevented hallucination.** Providing expected values for all 29 ratios in the spec (Section 6) gave the executing LLM immediate self-check capability — the raw output matches spec expectations to within rounding throughout.
-2. **Validation rules (V1–V8) caught nothing this time, but the framework is correct.** In a real-world scenario with a less carefully prepared model, the validation step would be where data errors surface before narrative analysis begins.
-3. **Du Pont mismatch pre-documented.** By explaining the time-period mismatch in the spec, the raw output addressed it directly rather than flagging it as an unexplained error.
-4. **H3 directional framing.** Pointing the analysis explicitly at both the model-computed (0.477x) and Mergent-reported (0.457x) asset turnover prevented a misleading finding — the model denominator choice could have shown apparent improvement if not contrasted with the Mergent measure.
-
-### What the spec could improve
-
-1. **EBIT definitional mismatch.** The model's EBIT ($13,973M) is computed as Sales − COGS − SGA − D&A, which excludes "Unusual Expense" ($582M) and "Other Operating Expenses" ($47M) that are in Coca-Cola's actual operating income line. The 10-K reported operating income is $14,394M vs. model EBIT of $13,973M — a $421M gap. The spec should have noted this reconciliation explicitly so that TIE calculations cite the right numerator. In this analysis, model EBIT ($13,973M) was used consistently; the spec retrospective flags it for FY2026 refinement.
-
-2. **CFO reconciliation created a dead-end metric.** The template-computed CFO of $5,181M is so far from reported CFO ($7,408M) that it was unusable for free cash flow commentary. The spec correctly anticipated this and instructed use of the reported figure for FCF discussion — but ideally the model should capture the main non-cash reconciling items (stock-based comp, deferred taxes) as additional line items to reduce the gap.
-
-3. **No prior-year IS data limits trend ratio depth.** The template stores current-year IS only. FY2024 margin comparisons required Mergent benchmarks rather than independent model computation. A two-year IS column would allow the model to compute margin trends internally.
-
-4. **Share price source and precision.** The spec used $69.43 as the December 31, 2025 closing price (sourced from StatMuse). This should be cross-checked against the NYSE official closing price in the 10-K or Bloomberg before final submission, as it directly determines MVA, MTB, and market capitalization.
-
-### Spec effectiveness rating: **4 / 5**
-
-**Justification.** The spec was strong enough that the LLM produced a substantially correct analysis on first execution: all 29 ratios matched expected values within rounding, validation rules passed without intervention, and the Du Pont reconciliation was handled cleanly because the time-period mismatch was pre-documented. The one full point of deduction reflects three concrete shortfalls surfaced above: (a) the EBIT vs. reported operating-income definitional gap was not flagged in the spec, (b) the strategic-recommendation output format was under-specified (LLM delivered narrative rather than 3–5 numbered recommendations with explicit evidence and counter-risk), and (c) the spec lacked instructions to stress-test leverage and prescribe capital deployment — both items a senior analyst would expect. A rating of 5/5 would require the spec to enforce the recommendation count and structure, name the EBIT reconciliation explicitly, and require at least one stress scenario. Rating of 3/5 would have been warranted only if the LLM output had needed structural rework; in this run only narrative additions and one ratio-precision sweep were needed, justifying 4/5.
+Moved to a standalone file per Stage 5 rubric: see [`2026-05-17-nguyen-coca-cola-spec-retrospective.md`](2026-05-17-nguyen-coca-cola-spec-retrospective.md) for the full six-section retrospective (verdict table for 11 spec sections, three gaps with evidence, three revisions, 1–5 effectiveness rating with anchored justification, forward link, and process feedback).
 
 ---
 

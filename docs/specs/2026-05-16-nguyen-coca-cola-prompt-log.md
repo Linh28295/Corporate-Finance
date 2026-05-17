@@ -23,8 +23,8 @@ date: 2026-05-16
 
 **Context provided to the LLM at time of prompt:**
 - Stage 3 Excel workbook: `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx` (fully populated)
-- Financial data reference: `analysis/validation/2026-05-10-coca-cola-financials-data-reference.md`
-- Stage 3 data guide: `analysis/validation/2026-05-10-coca-cola-stage3-data-guide.md`
+- Financial data reference: `analysis/validation/2026-05-10-nguyen-coca-cola-financials-data-reference.md`
+- Stage 3 data guide: `analysis/validation/2026-05-10-nguyen-coca-cola-stage3-data-guide.md`
 - Stage 2 memo with three hypotheses: `docs/decisions/2026-05-10-nguyen-coca-cola-selection.md`
 - Stage 4 requirements: `_course-docs/stage4-technical-specification.md`
 - All named ranges confirmed populated (0 empty cells, verified programmatically)

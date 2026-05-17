@@ -67,7 +67,7 @@ KO 10-K filings: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK
 | **Data vintage** | TTM as of April 2026 |
 | **Accessed** | May 16, 2026 |
 | **File** | `data/nguyen/2026-04-04-coca-cola-industry-peers-mergent.xlsx` |
-| **Used in** | `deliverables/2026-05-16-coca-cola-peer-comparison.md` |
+| **Used in** | `deliverables/2026-05-16-nguyen-coca-cola-peer-comparison.md` |
 
 ---
 

@@ -22,7 +22,7 @@ exchange: NYSE
 
 ## Executive Summary
 
-I propose analyzing **The Coca-Cola Company (NYSE: KO)** for the BUS 629 ratio analysis project. Coca-Cola's combination of exceptional brand equity, an asset-light franchise model, and an unusually leveraged capital structure makes it a compelling subject for all six ratio categories -- particularly profitability, leverage, and efficiency. With this analytical structure and complete FY2024-FY2025 data confirmed available, I recommend KO as the project subject and propose moving directly to Stage 3 build.
+I propose **The Coca-Cola Company (NYSE: KO)** for the BUS 629 ratio analysis project. KO's asset-light franchise model and unusually leveraged capital structure make it a strong test case across profitability, leverage, and efficiency ratios. Complete FY2024–FY2025 data is confirmed available; I recommend moving directly to Stage 3 build.
 
 ---
 
@@ -43,11 +43,7 @@ I propose analyzing **The Coca-Cola Company (NYSE: KO)** for the BUS 629 ratio a
 
 ## 2. Selection Rationale
 
-Coca-Cola presents a textbook case of the tension between accounting presentation and economic reality. Its balance sheet carries large treasury stock (-$56,423M) and accumulated other comprehensive loss (-$14,105M), producing a debt-to-equity ratio that appears elevated in isolation but is entirely sustainable given the company's operating cash flow consistency.
-
-From a strategic lens, Coca-Cola mirrors the type of transformation challenge I work on at Prudential Vietnam: managing a global operating model through a franchised network requires the same discipline in governance, financial stewardship, and performance tracking that I apply daily. Analyzing Coca-Cola's ratios will ground the theoretical frameworks from BUS 629 in a business I can interrogate with real strategic judgment.
-
-The company also offers an analytically rich environment: revenue has shifted from carbonated soft drinks toward still beverages and health-oriented categories, creating measurable pressure on margins and asset efficiency that should surface clearly in the ratio data.
+KO illustrates the tension between accounting presentation and economic reality: large treasury stock (−$56,423M) and AOCI (−$14,105M) inflate apparent leverage that operating cash flow easily supports. Strategically, the franchised global-network governance challenge mirrors my Prudential Vietnam work, so the BUS 629 frameworks land in a business I can interrogate with judgment. The carbonated-to-still product-mix shift should produce measurable pressure on margins and asset efficiency — visible directly in the ratio data.
 
 ---
 
@@ -60,17 +56,17 @@ The company also offers an analytically rich environment: revenue has shifted fr
 | **Mergent Online** | 5-year financial summary used for data population |
 | **Yahoo Finance** | Share price at fiscal year-end (Dec 31) for market-based ratios |
 
-All financial statements are in English under U.S. GAAP. No translation or accounting-standard conversion is required. Two full fiscal years of comparable data (FY2025 and FY2024) are confirmed available.
+All statements are in English under U.S. GAAP; two full fiscal years (FY2025 + FY2024) are confirmed available.
 
 ---
 
 ## 4. Preliminary Observations
 
-1. **Leverage will appear elevated but is structurally supported.** I expect a debt-to-equity ratio above 1.3x -- driven by large treasury stock and AOCI -- while interest coverage of ~7-9x remains healthy, reflecting the disconnect between accounting leverage and economic risk.
+1. **Leverage will appear elevated but is structurally supported.** D/E above 1.3x driven by treasury stock and AOCI, while interest coverage of ~7–9x remains healthy — the disconnect between accounting leverage and economic risk.
 
-2. **Profitability ratios will reflect the franchise premium.** As a concentrate manufacturer rather than a bottler, Coca-Cola retains gross and operating margins of ~62% and ~30% respectively in FY2025 -- a premium I expect to be significantly above beverage industry peers.
+2. **Profitability will reflect the franchise premium.** As a concentrate manufacturer (not a bottler), KO should retain gross margin ~62% and operating margin ~30% in FY2025 — well above beverage peers.
 
-3. **Asset turnover will decline in FY2025 vs. FY2024.** The product-mix shift toward lower-margin still beverages dilutes per-unit revenue against a slower-shrinking asset base; I expect this to compress asset turnover and inventory efficiency year-over-year -- a falsifiable prediction directly testable in the Stage 3 build.
+3. **Asset turnover will decline FY2025 vs. FY2024.** The mix shift toward lower-margin still beverages dilutes revenue against a slower-shrinking asset base — a falsifiable prediction directly testable in Stage 3.
 
 ---
 
@@ -89,10 +85,8 @@ All financial statements are in English under U.S. GAAP. No translation or accou
 
 ## 6. Data Collection Plan
 
-- **Primary statements needed:** Income Statement, Balance Sheet, Statement of Cash Flows (FY2025 and FY2024 from 10-K / Mergent)
-- **Current year:** FY2025 (ended December 31, 2025)
-- **Prior year:** FY2024 (ended December 31, 2024)
-- **Market data:** Closing share price at December 31 each year and diluted shares outstanding for EPS and market-based ratios
-- **No currency conversion required** -- all figures reported in USD millions
-- **GAAP considerations:** Revenue recognition under ASC 606 and lease obligations under ASC 842 noted where they affect ratio comparability
-- **Timeline:** All data sourced from Mergent Online 5-year summary and entered into `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`
+- **Statements:** Income Statement, Balance Sheet, Cash Flow Statement — FY2025 (current) and FY2024 (prior), from 10-K / Mergent
+- **Market data:** Dec 31 closing share price and diluted shares for market-based ratios
+- **Currency:** USD millions throughout; no conversion required
+- **GAAP considerations:** ASC 606 (revenue) and ASC 842 (leases) flagged where they affect ratio comparability
+- **Build target:** `models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx`

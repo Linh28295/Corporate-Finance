@@ -47,7 +47,7 @@ Use the **full data reference** at `analysis/validation/2026-05-10-coca-cola-fin
 | `INC_OtherNet` | Other, net | (79) | (31) |
 | `INC_EBT` | Net income before taxes | 15,998 | 13,086 |
 | `INC_TaxExpense` | Provision for income taxes | 2,861 | 2,437 |
-| `INC_NetIncome` | Net income | 13,107 | 10,631 |
+| `INC_net` | Net income (consolidated, = EBT − Tax = 13,137 in workbook; Mergent IS-line "Net Income attributable to KO" is 13,107 after $30M NCI deduction — see `2026-05-10-coca-cola-financials-data-reference.md` reconciliation row) | 13,137 | 10,649 |
 | `INC_SharesDiluted` | Diluted weighted average shares (millions) | 4,313 | 4,320 |
 | `INC_EPSDiluted` | Diluted EPS | 3.04 | 2.46 |
 

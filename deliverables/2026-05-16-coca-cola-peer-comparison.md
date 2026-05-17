@@ -7,6 +7,7 @@ author: Nguyen Bui Ngoc Linh
 company: The Coca-Cola Company
 ticker: KO
 date: 2026-05-16
+revised: 2026-05-17  # net profit margin refreshed to workbook precision (27.40%); asset turnover citation reconciled with monitoring threshold
 source: Mergent Industry Peers Report, SIC 2080 Beverages, pulled 2026-04-04
 ---
 

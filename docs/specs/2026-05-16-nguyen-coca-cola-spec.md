@@ -7,6 +7,7 @@ author: Nguyen Bui Ngoc Linh
 company: The Coca-Cola Company
 ticker: KO
 date: 2026-05-16
+revised: 2026-05-17  # added color-coding (§2), GAAP/currency/audience (§1), interpretation guide (§6g), Du Pont ROE validation rule (V9), CF_depreciation_amortization named range
 ---
 
 # Technical Specification — Coca-Cola Performance Ratio Analysis
@@ -134,6 +135,7 @@ All figures in USD millions unless otherwise noted. Source: Mergent 5-Year Finan
 |-------------|-----------|-------:|
 | `CASH_operating` | Cash Provided by Operations (formula) | 5,181 |
 | `CASH_investments` | Cash Used for Investments (formula) | (67) |
+| `CF_depreciation_amortization` | Depreciation on the Cash Flow tab (alias for `INC_depreciation` for any CF-side reference) | 1,050 |
 | — | Cash Used for Financing (formula) | (8,140) |
 
 > **Reconciliation note:** Template-computed CFO ($5,181M) differs from reported CFO ($7,408M) by $2,227M. The gap arises from non-cash operating items not captured in the simplified template (stock-based compensation, deferred taxes, pension adjustments). Interpret CASH_operating with this limitation in mind; use reported $7,408M for any free cash flow commentary.

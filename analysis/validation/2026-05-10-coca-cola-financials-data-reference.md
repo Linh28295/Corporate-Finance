@@ -51,6 +51,8 @@ Source: Consolidated Statements of Income
 | Provision for Income Taxes | 2,861 | 2,437 |
 | **Net Income** | **13,107** | **10,631** |
 | | | |
+| ⚠️ Reconciliation: EBT − Tax = $15,998M − $2,861M = **$13,137M** (consolidated). The $13,107M line above is Net Income *attributable to The Coca-Cola Company* (after $30M noncontrolling-interest deduction). The workbook's `INC_net` uses the consolidated $13,137M figure (matches `Net Income (consolidated)` on the Cash Flow Statement). | | |
+| | | |
 | Basic EPS | 3.05 | 2.47 |
 | Diluted EPS | 3.04 | 2.46 |
 | Basic Weighted Average Shares (millions) | 4,303 | 4,309 |

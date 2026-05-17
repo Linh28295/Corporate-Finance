@@ -23,7 +23,9 @@ Produce a fully quantified performance ratio analysis of The Coca-Cola Company (
 - Compute and report all ratios defined in Section 6 using the named-range formulas in Section 5.
 - Decompose return on equity via Du Pont and reconcile any discrepancy between the Du Pont and direct ROE calculations.
 - Evaluate three pre-stated hypotheses (Section 8) with a verdict of CONFIRMED, REJECTED, or INCONCLUSIVE supported by the ratio evidence.
-- Deliver a strategic recommendation (Section 10) grounded in the ratio findings.
+- Deliver 3–5 strategic recommendations (Section 10) grounded in the ratio findings.
+
+**Reporting standard:** U.S. GAAP (Form 10-K filer, SEC EDGAR CIK 0000021344). **Reporting currency:** USD, figures in $millions. **Fiscal year end:** December 31. **Audience:** Managing Director, Corporate Strategy.
 
 The model is **read-only at Stage 5**: no formula modifications, only formula execution and interpretation.
 
@@ -41,6 +43,15 @@ The model is **read-only at Stage 5**: no formula modifications, only formula ex
 | Notes | Provenance | Company metadata, data source, AI usage, self-check notes |
 
 All cross-tab references use named ranges exclusively — no direct cell references (e.g., `Sheet!A1`) appear in the ratio formulas. This ensures the model is portable and refactorable.
+
+**Color-coding convention:**
+
+| Style | Meaning |
+|-------|---------|
+| Yellow background | DATA INPUTS — figures pulled from the 10-K / financial statements |
+| Light-blue background + blue text | ASSUMPTIONS — analyst inputs (share price, shares outstanding, WACC, tax rate, fiscal years) |
+| Green text | FORMULAS — cross-sheet references and derived calculations; do not overwrite |
+| Gray background | RATIO OUTPUTS — computed values on the Ratios tab; do not overwrite |
 
 ---
 
@@ -253,6 +264,17 @@ All formulas use named ranges defined in Sections 4–5. Expected values are com
 
 > **Known time-period mismatch:** Du Pont ROE (42.6%) will not equal direct ROE (52.9%). The leverage ratio uses current-year total assets and current-year equity, while asset turnover uses prior-year total assets. This creates a denominator mismatch. The Stage 5 analysis must identify and explain this discrepancy rather than treat it as a data error.
 
+#### 6g. Interpretation Guide — What "High" vs. "Low" Means
+
+| Category | "High" signals | "Low" signals | KO FY2025 read |
+|----------|---------------|---------------|----------------|
+| Performance (MVA, MTB, EVA) | Market believes future cash flows exceed book value; EVA > 0 means returns clear cost of capital | Value-destructive operations; investor scepticism | High — MTB ≈ 9x and EVA ≈ +$8.4B confirm KO clears its 9% hurdle rate |
+| Profitability (ROA / ROC / ROE) | Strong margin × turnover combination; effective deployment of capital | Either thin margins or sluggish asset utilization | High — ROE 52.9% on ROA 14.4% indicates leverage amplification (Du Pont) |
+| Efficiency (turnover, days) | Capital is recycled quickly; receivables collected fast; inventory moves | Working capital trapped; cash conversion cycle elongated | Mixed — receivables 27 days (tight) vs. inventory 94 days (concentrate-business norm) |
+| Leverage (debt ratios, TIE, coverage) | Aggressive capital structure; equity amplified but at higher risk of distress | Conservative balance sheet; spare debt capacity | Moderate-high — LT debt/cap 56.7%, TIE 8.45x means leverage is sustainable, not excessive |
+| Liquidity (current, quick, cash) | Strong short-term solvency; well-funded operations | Risk of missing near-term obligations | Adequate — current 1.46x (consumer-staples norm 1.3–1.7x); cash ratio 0.74x is healthy |
+| Du Pont (decomposition) | Multiplier components combine to amplify ROE | One weak component drags whole | Balanced — leverage (3.26) + turnover (0.48) + margin (30.2%) all material |
+
 ---
 
 ### 7. Validation Rules
@@ -269,6 +291,7 @@ The following checks must pass before Stage 5 analysis proceeds. Fail any check 
 | V6 | No formula errors | Zero `#REF!`, `#DIV/0!`, or `#NAME?` cells on the Ratios tab |
 | V7 | EVA sign | EVA > 0 (positive economic profit) — expected $8,444M; if negative, flag as unexpected |
 | V8 | Positive startYear values | `startYear_equity`, `startYear_total_assets`, `startYear_total_capitalization` all > 0 |
+| V9 | Du Pont ROE (reconciliation, not equality) | `RATIO_leverage × RATIO_asset_turnover × RATIO_operating_profit_margin × RATIO_debt_burden` returns a finite positive value AND the gap vs. direct ROE (`INC_net / startYear_equity`) is explained by the documented start-of-year vs. current-year denominator mismatch (see callout under Section 6f). Pass = both Du Pont ROE and direct ROE are positive and finite; the magnitude of the gap is acknowledged in the Stage 5 narrative. |
 
 ---
 

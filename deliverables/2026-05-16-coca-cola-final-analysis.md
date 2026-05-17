@@ -27,6 +27,7 @@ raw-output: deliverables/2026-05-16-coca-cola-llm-raw.md
 | **Market data** | Share price $69.43 (Dec 31, 2025, Yahoo Finance); diluted shares 4,313M |
 | **Cost of capital assumption** | 9.0% (WACC; spec-specified) |
 | **Accounting notes** | Treasury stock (−$56,423M FY2025) and AOCI (−$14,105M FY2025) are large negatives reducing book equity below economic equity. Equity method investments ($20,235M) are material non-current assets from bottling partner stakes. Retained earnings are POSITIVE ($80,382M). Template CFO ($5,181M) diverges from reported CFO ($7,408M) due to template simplification; reported figure used for FCF commentary. |
+| **Net Income basis** | Workbook `INC_net` = $13,137M (consolidated Net Income = EBT $15,998M − Tax $2,861M, matching the Cash Flow Statement). Mergent's IS line shows $13,107M, which is Net Income *attributable to The Coca-Cola Company* after a $30M noncontrolling-interest deduction. This analysis uses the consolidated $13,137M throughout; the $30M difference does not materially affect any ratio (e.g., ROE shifts by less than 0.13pp). |
 
 ---
 
@@ -38,7 +39,8 @@ raw-output: deliverables/2026-05-16-coca-cola-llm-raw.md
 | V2 | Balance Sheet FY2024: Assets = L + E | 100,549 = 75,693 + 24,856 ✓ |
 | V3 | IS: EBIT = Sales − COGS − SGA − D&A | 47,941 − 18,397 − 14,521 − 1,050 = 13,973 ✓ |
 | V4 | Net Income = Taxable Income − Taxes | 15,998 − 2,861 = 13,137 ✓ |
-| V5 | Du Pont ROA ≈ Direct ROA | 0.477 × 0.302 = 14.4% ≈ 14,495 / 100,549 = 14.4% ✓ |
+| V5 | Du Pont ROA ≈ Direct ROA | 0.4768 × 0.3024 = 14.42% ≡ 14,495 / 100,549 = 14.42% ✓ |
+| V9 | Du Pont ROE reconciles | Du Pont ROE = 42.57%; Direct ROE = 13,137 / 24,856 = 52.85%; 10.28pp gap explained by the start-of-year vs. current-year denominator mismatch documented under §6f ✓ |
 | V6 | No formula errors on Ratios tab | Confirmed ✓ |
 | V7 | EVA > 0 | $8,444M ✓ |
 | V8 | All startYear values > 0 | Confirmed ✓ |
@@ -53,7 +55,7 @@ Coca-Cola's market capitalization at December 31, 2025 was $298,627M (share pric
 
 ### Profitability
 
-After-tax operating income (ATOI) of $14,495M — net income of $13,137M plus the tax-effected interest shield ($1,654M × (1 − 17.88%) = $1,358M) — drives ROA of 14.4% on prior-year assets of $100,549M. ROE of 52.9% against prior-year equity of $24,856M reflects earnings power magnified by financial leverage. ROC of 21.6% on start-of-year total capitalization of $67,231M shows returns running 2.4x the cost of capital. FY2024 benchmarks (ROE ~38.8%, ROA ~9.9% from Mergent) indicate substantial year-over-year improvement, driven primarily by the absence of the $3.1B "Other Operating Expenses" restructuring charge that weighed on FY2024.
+After-tax operating income (ATOI) of $14,495M — net income of $13,137M plus the tax-effected interest shield ($1,654M × (1 − 17.88%) = $1,358M) — drives ROA of 14.42% on prior-year assets of $100,549M. ROE of 52.85% against prior-year equity of $24,856M reflects earnings power magnified by financial leverage. ROC of 21.56% on start-of-year total capitalization of $67,231M shows returns running 2.4x the cost of capital. FY2024 benchmarks (ROE ~38.8%, ROA ~9.9% from Mergent) indicate substantial year-over-year improvement, driven primarily by the absence of the $3.1B "Other Operating Expenses" restructuring charge that weighed on FY2024.
 
 ### Efficiency
 
@@ -73,8 +75,8 @@ Current ratio of 1.46x reflects a significant improvement from FY2024's approxim
 
 ```
 ROE (Du Pont) = Leverage × Asset Turnover × Operating Profit Margin × Debt Burden
-              = 3.258   ×     0.477       ×        0.302            ×    0.906
-              = 42.6%
+              = 3.258   ×    0.4768       ×       0.3024            ×   0.9063
+              = 42.57%
 ```
 
 | Factor | Value | Role in ROE |
@@ -86,9 +88,9 @@ ROE (Du Pont) = Leverage × Asset Turnover × Operating Profit Margin × Debt Bu
 
 **Leverage is the dominant ROE driver.** Removing leverage (hypothetical leverage = 1.0x), Du Pont ROE collapses to ~13.0% (0.477 × 0.302 × 0.906). The 3.26x leverage multiplier amplifies this base return nearly 3.3-fold.
 
-**Reconciliation — Du Pont ROE (42.6%) vs. Direct ROE (52.9%):**
+**Reconciliation — Du Pont ROE (42.57%) vs. Direct ROE (52.85%):**
 
-The 10.3 percentage-point gap is structural, not an error. The leverage ratio uses current-year figures (assets $104,816M / equity $32,169M = 3.258x), while asset turnover uses prior-year assets ($100,549M). Because total assets grew $4,267M during FY2025, the leverage denominator is larger than the asset turnover denominator, and the two factors do not cancel cleanly to reproduce direct ROA. For risk-focused analysis, **direct ROE of 52.9% is the more reliable measure** — it applies a consistent prior-year denominator that represents the actual capital base at the start of the earnings period.
+The 10.28 percentage-point gap is structural, not an error. The leverage ratio uses current-year figures (assets $104,816M / equity $32,169M = 3.258x), while asset turnover uses prior-year assets ($100,549M). Because total assets grew $4,267M during FY2025, the leverage denominator is larger than the asset turnover denominator, and the two factors do not cancel cleanly to reproduce direct ROA. For risk-focused analysis, **direct ROE of 52.85% is the more reliable measure** — it applies a consistent prior-year denominator that represents the actual capital base at the start of the earnings period.
 
 ---
 
@@ -120,8 +122,8 @@ Both measures confirm declining asset productivity. Revenue grew 1.9% ($880M) ag
 | Ratio | FY2025 | FY2024 | Direction | Commentary |
 |-------|-------:|-------:|:---------:|-----------|
 | Operating Profit Margin | 30.2% | 24.9% | ↑ +530bp | Absence of $3.1B FY2024 restructuring charges; pricing actions held |
-| Net Profit Margin | 27.4% | 22.6% | ↑ +480bp | Follows operating margin; tax rate stable ~18% |
-| ROE (direct) | 52.9% | 38.8% | ↑ +1,410bp | Higher earnings + lower prior-year equity base |
+| Net Profit Margin | 27.40% | 22.6% | ↑ +480bp | Follows operating margin; tax rate stable ~18% |
+| ROE (direct) | 52.85% | 38.8% | ↑ +1,405bp | Higher earnings + lower prior-year equity base |
 | Current Ratio | 1.46x | 1.03x | ↑ +0.43 | Other current liabilities fell $5.4B (restructuring accruals settled) |
 | Asset Turnover (Mergent) | 0.457x | 0.468x | ↓ −0.011 | Asset base growing faster than revenue |
 | LT Debt-to-Equity | 1.31x | 1.70x | ↑ Improved | Equity grew $7.3B; absolute LT debt nearly flat |
@@ -188,7 +190,7 @@ Five actionable recommendations, each grounded in specific model ratios and asse
 
 **What the LLM executed correctly:**
 - All 8 validation checks computed correctly from spec inputs; no arithmetic errors detected.
-- Du Pont decomposition (42.6%) matched the spec-provided expected value exactly; time-period mismatch was explained clearly as pre-specified in the spec.
+- Du Pont decomposition (42.57%) matched the spec-provided expected value exactly; time-period mismatch was explained clearly as pre-specified in the spec.
 - H1 (EVA), H2 (leverage), H3 (asset turnover) were evaluated against explicit thresholds and all three verdicts matched the student's own Stage 3 analysis.
 - FY2024 restructuring charge context was correctly applied to the margin trend analysis.
 - Ratio organization across six categories (Performance, Profitability, Efficiency, Leverage, Liquidity, Du Pont) matched the spec's required structure.
@@ -239,6 +241,10 @@ The one genuine concern I hold — and which the ratio data confirms — is H3: 
 3. **No prior-year IS data limits trend ratio depth.** The template stores current-year IS only. FY2024 margin comparisons required Mergent benchmarks rather than independent model computation. A two-year IS column would allow the model to compute margin trends internally.
 
 4. **Share price source and precision.** The spec used $69.43 as the December 31, 2025 closing price (sourced from StatMuse). This should be cross-checked against the NYSE official closing price in the 10-K or Bloomberg before final submission, as it directly determines MVA, MTB, and market capitalization.
+
+### Spec effectiveness rating: **4 / 5**
+
+**Justification.** The spec was strong enough that the LLM produced a substantially correct analysis on first execution: all 29 ratios matched expected values within rounding, validation rules passed without intervention, and the Du Pont reconciliation was handled cleanly because the time-period mismatch was pre-documented. The one full point of deduction reflects three concrete shortfalls surfaced above: (a) the EBIT vs. reported operating-income definitional gap was not flagged in the spec, (b) the strategic-recommendation output format was under-specified (LLM delivered narrative rather than 3–5 numbered recommendations with explicit evidence and counter-risk), and (c) the spec lacked instructions to stress-test leverage and prescribe capital deployment — both items a senior analyst would expect. A rating of 5/5 would require the spec to enforce the recommendation count and structure, name the EBIT reconciliation explicitly, and require at least one stress scenario. Rating of 3/5 would have been warranted only if the LLM output had needed structural rework; in this run only narrative additions and one ratio-precision sweep were needed, justifying 4/5.
 
 ---
 

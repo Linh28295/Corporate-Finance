@@ -20,6 +20,7 @@
 | 2026-05-16 | 4 | "stage 4 please" | Drafted 11-section technical specification | docs/specs/2026-05-16-nguyen-coca-cola-spec.md, docs/specs/2026-05-16-nguyen-coca-cola-prompt-log.md |
 | 2026-05-16 | 5 | "sure" | Executed spec; raw + evaluated analysis | deliverables/2026-05-16-coca-cola-llm-raw.md, deliverables/2026-05-16-coca-cola-final-analysis.md |
 | 2026-05-17 | 3 | "fix stage 3 with comment from instructor" | Populated subtotal cached values across BS/IS/CF/Ratios, added `CF_depreciation_amortization` named range, added US GAAP literal to Notes, renamed workbook to `YYYY-MM-DD-nguyen-…` convention | models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx |
+| 2026-05-17 | 3 | "check again all the files and docs … have we match fully with requirements" | Full course-doc audit: fixed `startYear_equity` (24,856, not 21,561) and dependent ROE/ROC/EVA/avg cells; rewrote `analysis/validation/README.md` with correct named-range names; added Stage 3 validation report (200–300 words) per rubric deliverable spec; clarified consolidated vs. attributable Net Income reconciliation in data-reference | models/builds/2026-05-17-nguyen-coca-cola-financials.xlsx, analysis/validation/README.md, analysis/validation/2026-05-17-nguyen-coca-cola-validation-report.md, analysis/validation/2026-05-10-coca-cola-financials-data-reference.md |
 
 ---
 

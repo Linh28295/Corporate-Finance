@@ -4,7 +4,8 @@ company: The Coca-Cola Company
 ticker: KO
 stage: 5-final
 date: 2026-05-16
-spec-version: "1.0 (docs/specs/2026-05-16-nguyen-coca-cola-spec.md)"
+revised: 2026-05-17  # ratios refreshed to workbook precision (14.42% / 52.85% / 42.57%); V9 added; NI $13,137 vs $13,107 footnote; 4/5 spec effectiveness rating
+spec-version: "1.0 (docs/specs/2026-05-16-nguyen-coca-cola-spec.md) — revised 2026-05-17"
 raw-output: deliverables/2026-05-16-coca-cola-llm-raw.md
 ---
 

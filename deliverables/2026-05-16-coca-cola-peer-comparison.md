@@ -39,7 +39,7 @@ Source: Mergent Online Industry Peers Report — SIC 2080 Beverages, pulled Apri
 | **Revenue** | $47,941 | $93,925 | $16,603 | $9,383 | $3,910 | $17,577 |
 | **Gross Margin** | **61.6%** | 54.5% | 54.2% | 52.6% | 59.3% | 50.5% |
 | **EBITDA Margin** | 33.4% | 19.4% | 26.0% | **38.2%** | 33.1% | 25.4% |
-| **Net Profit Margin** | **27.3%** | 8.8% | 12.5% | 11.8% | 20.6% | 14.9% |
+| **Net Profit Margin** | **27.40%** | 8.8% | 12.5% | 11.8% | 20.6% | 14.9% |
 | **Net Income** | $13,107 | $8,240 | $2,079 | $1,110 | $807 | $2,613 |
 | **Total Debt** | $45,492 | $49,182 | $17,090 | $11,498 | $2,733 | $12,877 |
 | **Debt / Equity** | 1.41x | **2.41x** | 0.67x | 1.49x | 0.67x | 1.37x |
@@ -59,7 +59,7 @@ Source: Mergent Online Industry Peers Report — SIC 2080 Beverages, pulled Apri
 
 Coca-Cola holds the highest gross margin in the peer set at **61.6%**, 7+ percentage points above PepsiCo (54.5%) and Keurig Dr Pepper (54.2%). This structural advantage stems from the asset-light concentrate/franchise model: Coca-Cola manufactures and sells concentrate at high margin, while bottling partners absorb the capital-intensive production and distribution costs. PepsiCo's lower gross margin reflects its integrated manufacturing model and diversified snack food portfolio, where commodity input costs suppress margins.
 
-Net profit margin is the most dramatic differentiator: **KO at 27.3% vs. PEP at 8.8%** — an 18.6 percentage-point spread. PepsiCo generates nearly twice Coca-Cola's revenue ($93.9B vs. $47.9B) yet earns only 63% of Coca-Cola's net income ($8.2B vs. $13.1B). In absolute terms, KO earns **$13,107M on $47,941M of revenue; PEP earns $8,240M on $93,925M** — demonstrating that Coca-Cola's franchise model converts a smaller revenue base into superior earnings. If Coca-Cola had PepsiCo's 8.8% net margin, its net income would be just $4,206M — 68% lower than actual.
+Net profit margin is the most dramatic differentiator: **KO at 27.40% vs. PEP at 8.8%** — an 18.6 percentage-point spread. PepsiCo generates nearly twice Coca-Cola's revenue ($93.9B vs. $47.9B) yet earns only 63% of Coca-Cola's net income ($8.2B vs. $13.1B). In absolute terms, KO earns **$13,107M on $47,941M of revenue; PEP earns $8,240M on $93,925M** — demonstrating that Coca-Cola's franchise model converts a smaller revenue base into superior earnings. If Coca-Cola had PepsiCo's 8.8% net margin, its net income would be just $4,206M — 68% lower than actual.
 
 Brown-Forman (20.6%) is the only peer approaching KO's margin quality, reflecting the pricing power of premium spirits brands.
 
@@ -110,7 +110,7 @@ KO's $727K revenue per employee understates true efficiency: the 65,900 employee
 | Dimension | KO Position | Key Insight |
 |-----------|-------------|-------------|
 | Gross Margin | #1 of 5 (61.6%) | Franchise model structural advantage; 7pp above PEP |
-| Net Margin | #1 of 5 (27.3%) | 3x PEP's margin on half the revenue |
+| Net Margin | #1 of 5 (27.40%) | 3x PEP's margin on half the revenue |
 | EBITDA Margin | #2 of 5 (33.4%) | Trails only STZ's alcohol premium (38.2%) |
 | Leverage | #3 of 5 (1.41x D/E) | Moderate; PEP more levered, KDP/BF.B lower |
 | Liquidity | #1 of 5 (35% cash/debt) | Strongest balance sheet relative to debt |
@@ -126,9 +126,9 @@ KO's $727K revenue per employee understates true efficiency: the 65,900 employee
 
 The peer benchmarking validates and extends three conclusions from the single-company ratio analysis:
 
-**H1 (EVA Positive) — Strengthened.** KO's EVA of $8,444M is supported by peer context: PEP's net margin of 8.8% suggests that much of PEP's capital is likely near or below its cost of capital. KO's 27.3% margin means it retains significantly more earning power per dollar of sales to cover capital costs — a structural, not cyclical, advantage.
+**H1 (EVA Positive) — Strengthened.** KO's EVA of $8,444M is supported by peer context: PEP's net margin of 8.8% suggests that much of PEP's capital is likely near or below its cost of capital. KO's 27.40% margin means it retains significantly more earning power per dollar of sales to cover capital costs — a structural, not cyclical, advantage.
 
-**H2 (Leverage Manageable) — Contextualized.** KO's D/E of 1.41x is actually conservative relative to PEP (2.41x), the closest business-model comparable. If PEP can service 2.41x leverage with 8.8% margins, KO's serviceability at 1.41x with 27.3% margins is not a concern — it has far more per-dollar earnings to cover interest.
+**H2 (Leverage Manageable) — Contextualized.** KO's D/E of 1.41x is actually conservative relative to PEP (2.41x), the closest business-model comparable. If PEP can service 2.41x leverage with 8.8% margins, KO's serviceability at 1.41x with 27.40% margins is not a concern — it has far more per-dollar earnings to cover interest.
 
 **H3 (Asset Turnover Declining) — Placed in context.** The revenue multiple of 6.9x vs. PEP's 2.3x reveals the market is not penalizing KO for lower revenue density — it is rewarding it. The market recognizes that KO's low asset turnover is a feature of the franchise model (concentrate, not bottles) rather than operational inefficiency. The concern raised in Stage 5 (asset base growing faster than revenue) remains valid as a trend watch, but the peer context shows KO's revenue productivity per employee is healthy relative to integrated peers.
 
@@ -153,7 +153,7 @@ The peer benchmarking validates and extends three conclusions from the single-co
 
 **Recommendation: Hold with conviction; prioritize capital discipline over revenue scale.**
 
-The peer benchmarking confirms that Coca-Cola's competitive advantage is structural, not cyclical. With the highest gross margin (61.6%), highest net margin (27.3%), and strongest cash position relative to debt (35%) in the SIC 2080 peer group, KO's priority should be defending the franchise model economics that generate these outcomes — not chasing PepsiCo's revenue scale.
+The peer benchmarking confirms that Coca-Cola's competitive advantage is structural, not cyclical. With the highest gross margin (61.6%), highest net margin (27.40%), and strongest cash position relative to debt (35%) in the SIC 2080 peer group, KO's priority should be defending the franchise model economics that generate these outcomes — not chasing PepsiCo's revenue scale.
 
 ---
 
@@ -161,7 +161,7 @@ The peer benchmarking confirms that Coca-Cola's competitive advantage is structu
 
 **1. Protect the franchise margin architecture — resist integration temptation.**
 
-The 18.6 percentage-point net margin gap over PepsiCo (27.3% vs. 8.8%) exists precisely because Coca-Cola does not own bottling operations at scale. Any strategic move toward backward integration (acquiring bottlers, owning distribution infrastructure) would compress gross margins toward PEP's 54.5% and erode the structural advantage that justifies KO's 6.9x revenue multiple. Management should hold the line on the asset-light concentrate model and resist growth-by-acquisition in manufacturing.
+The 18.6 percentage-point net margin gap over PepsiCo (27.40% vs. 8.8%) exists precisely because Coca-Cola does not own bottling operations at scale. Any strategic move toward backward integration (acquiring bottlers, owning distribution infrastructure) would compress gross margins toward PEP's 54.5% and erode the structural advantage that justifies KO's 6.9x revenue multiple. Management should hold the line on the asset-light concentrate model and resist growth-by-acquisition in manufacturing.
 
 **2. Deploy the $15,806M cash position into premium category expansion.**
 
@@ -169,7 +169,7 @@ KO holds the strongest cash-to-debt ratio in the peer set (35% vs. PEP 19%, KDP 
 
 **3. Address the asset turnover trend before it becomes a valuation headwind.**
 
-H3 (confirmed in Stage 5) showed asset turnover declining as KO's asset base grows faster than revenue. At 0.477x, KO's turnover is already the lowest efficiency metric in the peer comparison. The market is currently rewarding KO's margin quality over its asset productivity (6.9x revenue multiple), but this tolerance is not unlimited. If total assets continue compounding at a faster rate than revenue through FY2026–FY2027, the Du Pont ROE decomposition will weaken even if margins hold. Management should set an internal asset turnover floor — a reasonable target given peer data is **0.50x by FY2027** — and screen capital projects against that hurdle before approval.
+H3 (confirmed in Stage 5) showed asset turnover declining as KO's asset base grows faster than revenue. At 0.48x (workbook precision 0.4768x), KO's turnover is already the lowest efficiency metric in the peer comparison. The market is currently rewarding KO's margin quality over its asset productivity (6.9x revenue multiple), but this tolerance is not unlimited. If total assets continue compounding at a faster rate than revenue through FY2026–FY2027, the Du Pont ROE decomposition will weaken even if margins hold. Management should set an internal asset turnover floor — a reasonable target given peer data is **0.50x by FY2027** — and screen capital projects against that hurdle before approval.
 
 **4. Use moderate leverage deliberately, not defensively.**
 

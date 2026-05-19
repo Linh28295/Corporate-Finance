@@ -53,7 +53,9 @@ stage5-final-analysis: deliverables/2026-05-16-nguyen-coca-cola-final-analysis.m
 
 ---
 
-## 3. Revisions (mapped to Gaps 1–3)
+## 3. Three revisions you would make if you re-ran the spec (mapped to Gaps 1–3)
+
+Three concrete revisions, one per gap identified in §2:
 
 1. **Addresses Gap 1.** Rewrite §B.10 to enforce four-field numbered recommendation format. The four sub-fields (Recommendation / Evidence / Counter-risk / Owner-horizon) borrow from the executive-memo conventions in `docs/templates/memo-template.md` and prevent narrative drift even with a stylistic LLM.
 

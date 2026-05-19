@@ -37,7 +37,7 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 | Stage 1 | Excel template in `models/templates/` | ✅ Complete (100%) | `ed71d3e` |
 | Stage 2 | Company selection memo — Coca-Cola (KO) | ✅ Complete (92% pre-revision; instructor feedback applied 2026-05-17; response memo 2026-05-18) | `f7cff2b` |
 | Stage 3 | Populated financials — FY2025 + FY2024 + validation report | ✅ Complete (75% pre-revision; post-deadline sweep applied 2026-05-17) | `f43b4ae` |
-| Stage 4 | Technical specification (11 sections) + HIL iteration evidence | ✅ Complete (instructor review 2026-05-18: no deductions called out) | `2698f18` |
+| Stage 4 | Technical specification (11 sections) + HIL iteration evidence | ✅ Complete (100%) | `2698f18` |
 | Stage 5 | LLM analysis + manual verification + spec retrospective + repo polish | ✅ Complete (91.02% — instructor review 2026-05-18; two small items addressed) | latest |
 | Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete | `2698f18` |
 

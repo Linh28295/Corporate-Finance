@@ -70,6 +70,9 @@ Awarded for leading Claims Business Process Re-Engineering (BPR) using Celonis p
 **Alexandrite Award — Health Strategy** · Prudential Vietnam · December 2024  
 Recognised by Group and Executive Committee for architecting Prudential Vietnam's Health business strategy from the ground up — encompassing the 2024–2030 strategic vision, Target Operating Model, technology roadmap, and product portfolio — establishing the full foundation for a new line of business.
 
+**Shidler EMBA Merit Scholarship — ~33% Tuition Award** · University of Hawaiʻi at Mānoa · 2025  
+Awarded on the basis of professional track record and leadership trajectory at admission to the Executive MBA programme.
+
 ---
 
 ## Skills & Certifications

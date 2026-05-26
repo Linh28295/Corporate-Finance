@@ -216,6 +216,11 @@ def build_story():
         "from the ground up — encompassing the 2024–2030 strategic vision, Target Operating Model, technology "
         "roadmap, and product portfolio — establishing the full foundation for a new line of business.",
     )
+    s += award_block(
+        "Shidler EMBA Merit Scholarship — ~33% Tuition Award · University of Hawaiʻi at Mānoa · 2025",
+        "",
+        "Awarded on the basis of professional track record and leadership trajectory at admission to the Executive MBA programme.",
+    )
 
     # Skills & Certifications (two-column table)
     s += section("Skills &amp; Certifications")

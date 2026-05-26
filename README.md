@@ -1,6 +1,6 @@
 # Nguyen Bui Ngoc Linh
 
-**Senior Manager, Operations & Technology Strategy & Transformation — Prudential Vietnam**  
+**Senior Manager, Operations & Technology Strategy & Transformation**  
 Corporate Strategy | Business Transformation | Financial Services | Operational Excellence
 
 📧 nguyenbuingoclinh546@gmail.com · 📞 +84 9677 99 546 · Ho Chi Minh City, Vietnam  
@@ -8,7 +8,7 @@ Corporate Strategy | Business Transformation | Financial Services | Operational 
 
 ---
 
-Senior Manager at Prudential Vietnam driving enterprise-wide transformation across a multi-million dollar portfolio — PROSCI-certified change leader with 8 years across insurance, retail, and financial services in Vietnam. Full biography in [BIO.md](BIO.md).
+Most recently Senior Manager at Prudential Vietnam (March 2024 – May 2026), leading enterprise-wide transformation across a multi-million dollar portfolio — PROSCI-certified change leader with 8 years across insurance, retail, and financial services in Vietnam. Full biography in [BIO.md](BIO.md).
 
 ---
 

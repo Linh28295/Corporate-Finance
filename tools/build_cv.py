@@ -110,7 +110,7 @@ def build_story():
 
     # Header
     s.append(Paragraph("Nguyen Bui Ngoc Linh", S_NAME))
-    s.append(Paragraph("Senior Manager, Operations &amp; Technology Strategy &amp; Transformation", S_TITLE))
+    s.append(Paragraph("Strategy &amp; Transformation Leader", S_TITLE))
     s.append(Paragraph(
         "nguyenbuingoclinh546@gmail.com · +84 9677 99 546 · Ho Chi Minh City, Vietnam · "
         "<link href='https://linkedin.com/in/linh-nguyen-b89436143'>linkedin.com/in/linh-nguyen-b89436143</link>",

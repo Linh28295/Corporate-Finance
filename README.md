@@ -1,6 +1,6 @@
 # Nguyen Bui Ngoc Linh
 
-**Senior Manager, Operations & Technology Strategy & Transformation**  
+**Strategy & Transformation Leader**  
 Corporate Strategy | Business Transformation | Financial Services | Operational Excellence
 
 📧 nguyenbuingoclinh546@gmail.com · 📞 +84 9677 99 546 · Ho Chi Minh City, Vietnam  

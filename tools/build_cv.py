@@ -23,9 +23,19 @@ from reportlab.platypus import (
 
 # ── Fonts ─────────────────────────────────────────────────────────────────────
 FONT_DIR = "/usr/share/fonts/truetype/liberation"
-pdfmetrics.registerFont(TTFont("LibSans",        f"{FONT_DIR}/LiberationSans-Regular.ttf"))
-pdfmetrics.registerFont(TTFont("LibSans-Bold",   f"{FONT_DIR}/LiberationSans-Bold.ttf"))
-pdfmetrics.registerFont(TTFont("LibSans-Italic", f"{FONT_DIR}/LiberationSans-Italic.ttf"))
+pdfmetrics.registerFont(TTFont("LibSans",            f"{FONT_DIR}/LiberationSans-Regular.ttf"))
+pdfmetrics.registerFont(TTFont("LibSans-Bold",       f"{FONT_DIR}/LiberationSans-Bold.ttf"))
+pdfmetrics.registerFont(TTFont("LibSans-Italic",     f"{FONT_DIR}/LiberationSans-Italic.ttf"))
+pdfmetrics.registerFont(TTFont("LibSans-BoldItalic", f"{FONT_DIR}/LiberationSans-BoldItalic.ttf"))
+# Register the font family so <b><i> tags resolve to the right glyph
+from reportlab.pdfbase.pdfmetrics import registerFontFamily
+registerFontFamily(
+    "LibSans",
+    normal="LibSans",
+    bold="LibSans-Bold",
+    italic="LibSans-Italic",
+    boldItalic="LibSans-BoldItalic",
+)
 
 NAVY = HexColor("#0B2545")
 GREY = HexColor("#54606C")
@@ -45,8 +55,9 @@ S_SECTION    = _style("Section",    fontName="LibSans-Bold",   fontSize=13, lead
 S_ROLE_ORG   = _style("RoleOrg",    fontName="LibSans-Bold",   fontSize=10.5, leading=13, spaceBefore=6, spaceAfter=0)
 S_ROLE_TITLE = _style("RoleTitle",  fontName="LibSans-Italic", fontSize=10, leading=12, textColor=GREY, spaceAfter=0)
 S_ROLE_DATES = _style("RoleDates",  fontSize=9.5, leading=11.5, textColor=GREY, spaceAfter=3)
-S_SUBHEAD    = _style("SubHead",    fontName="LibSans-Bold",   fontSize=10, leading=12, fontStyle="Italic", spaceBefore=4, spaceAfter=1)
-S_BULLET     = _style("Bullet",     fontSize=10, leading=13, leftIndent=10, bulletIndent=0, spaceAfter=2)
+S_SUBHEAD    = _style("SubHead",    fontName="LibSans-BoldItalic", fontSize=10, leading=12, spaceBefore=4, spaceAfter=1)
+# Hanging bullet: leftIndent sets where wrapped lines align; bulletIndent positions the • marker
+S_BULLET     = _style("Bullet",     fontSize=10, leading=13, leftIndent=14, bulletIndent=2, spaceAfter=2)
 S_PARA       = _style("Para",       fontSize=10, leading=13, spaceAfter=4)
 S_KEY        = _style("KeyVal",     fontName="LibSans-Bold",   fontSize=10, leading=12.5)
 S_VAL        = _style("Val",        fontSize=10, leading=12.5)
@@ -59,12 +70,13 @@ def section(title):
 
 
 def bullet(text):
-    return Paragraph(f"• {text}", S_BULLET)
+    # Proper hanging bullet: text wraps under itself, not under the • marker
+    return Paragraph(text, S_BULLET, bulletText="•")
 
 
 def subhead(text):
-    # Italic + bold sub-header inside a role
-    return Paragraph(f"<i><b>{text}</b></i>", S_SUBHEAD)
+    # Bold-italic sub-header inside a role (e.g., "Strategic Planning & Portfolio Oversight")
+    return Paragraph(text, S_SUBHEAD)
 
 
 def role_block(org, title, dates, subhead_bullets):
@@ -82,10 +94,12 @@ def role_block(org, title, dates, subhead_bullets):
     return flowables
 
 
-def award_block(title, line, body):
+_S_AWARD_TITLE = _style("AwardTitle", fontName="LibSans-Bold", fontSize=10.5, leading=13, spaceBefore=4, spaceAfter=1)
+
+
+def award_block(title, body):
     return [
-        Paragraph(f"<b>{title}</b>", _style("AwardTitle", fontName="LibSans-Bold", fontSize=10.5, leading=13, spaceBefore=4)),
-        Paragraph(line, S_ROLE_DATES),
+        Paragraph(title, _S_AWARD_TITLE),
         Paragraph(body, S_PARA),
     ]
 
@@ -201,24 +215,20 @@ def build_story():
     s += section("Honours &amp; Awards")
     s += award_block(
         "Talent Group · Prudential Vietnam Assurance · 2025 &amp; 2026",
-        "",
         "Identified as a high-potential leader and selected for PVA's Talent Group for two consecutive years.",
     )
     s += award_block(
         "Alexandrite Award — BPR for Claims · Prudential Vietnam · January 2026",
-        "",
         "Awarded for leading Claims BPR using Celonis process mining, significantly enhancing delivery speed and accuracy.",
     )
     s += award_block(
         "Alexandrite Award — Health Strategy · Prudential Vietnam · December 2024",
-        "",
         "Recognised by Group and Executive Committee for architecting Prudential Vietnam's Health business strategy "
         "from the ground up — encompassing the 2024–2030 strategic vision, Target Operating Model, technology "
         "roadmap, and product portfolio — establishing the full foundation for a new line of business.",
     )
     s += award_block(
         "Shidler EMBA Merit Scholarship · University of Hawaiʻi at Mānoa · 2025",
-        "",
         "Awarded on the basis of professional track record and leadership trajectory at admission to the Executive MBA programme.",
     )
 

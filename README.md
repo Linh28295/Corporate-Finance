@@ -31,15 +31,18 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 
 ## Project Status — BUS 629 Performance Ratios (Coca-Cola / KO)
 
-| Stage | Deliverable | Status | Latest commit |
-|-------|-------------|--------|---------------|
-| Stage 0 | Repo setup — BIO, RESUME, LICENSE, directory skeleton | ✅ Complete (100%) | `ed71d3e` |
-| Stage 1 | Excel template in `models/templates/` | ✅ Complete (100%) | `ed71d3e` |
-| Stage 2 | Company selection memo — Coca-Cola (KO) | ✅ Complete (92% pre-revision; instructor feedback applied 2026-05-17; response memo 2026-05-18) | `f7cff2b` |
-| Stage 3 | Populated financials — FY2025 + FY2024 + validation report | ✅ Complete (75% pre-revision; post-deadline sweep applied 2026-05-17) | `f43b4ae` |
-| Stage 4 | Technical specification (11 sections) + HIL iteration evidence | ✅ Complete (100%) | `2698f18` |
-| Stage 5 | LLM analysis + manual verification + spec retrospective + repo polish | ✅ Complete (91.02% — instructor review 2026-05-18; two small items addressed) | latest |
-| Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | ✅ Complete | `2698f18` |
+**Final project grade: 41.61 / 45 = 92.47%**
+
+| Stage | Deliverable | Score | % | Latest commit |
+|-------|-------------|------:|--:|---------------|
+| Stage 0 | Create GitHub Repo | 2.25 / 2.25 | **100%** | `ed71d3e` |
+| Stage 1 | Excel Performance Ratios Template | 9 / 9 | **100%** | `ed71d3e` |
+| Stage 2 | Draft Decision Memo — Coca-Cola (KO) | 4.37 / 4.5 | **97.11%** | `f7cff2b` |
+| Stage 3 | Real World Financial Data — FY2025 + FY2024 | 6.75 / 9 | **75%** | `f43b4ae` |
+| Stage 4 | Specification Driven Design (SDD) | 9 / 9 | **100%** | `2698f18` |
+| Stage 5 | Final Output via LLM & Spec | 10.24 / 11.25 | **91.02%** | latest |
+| **Total** | | **41.61 / 45** | **92.47%** | |
+| Extra Credit | Industry peer benchmarking — KO vs. PEP, KDP, STZ, BF.B (SIC 2080) | — | — | `2698f18` |
 
 **Company:** The Coca-Cola Company · KO: NYSE · FY2025 (Jan–Dec 2025)
 

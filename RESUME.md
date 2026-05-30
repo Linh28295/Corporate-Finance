@@ -19,18 +19,18 @@ Bachelor of Commerce, Marketing and Management · September 2017
 ## Professional Experience
 
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
-*Senior Manager, Operations & Technology Strategy & Transformation* · March 2024 – Present
+*Senior Manager, Operations & Technology Strategy & Transformation* · March 2024 – May 2026
 
 **Strategic Planning & Portfolio Oversight**
-- Lead a multi-disciplinary team of 9 driving a USD 10M annual transformation roadmap aligned with Executive Committee (ExCo) priorities and enterprise-wide strategic objectives
-- Govern a comprehensive transformation portfolio across business units, ensuring rigorous delivery against milestones and sustaining execution accountability through structured governance rhythms
-- Orchestrate end-to-end change management and communication strategies, ensuring organisational buy-in for large-scale transformation efforts
-- Architect Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting abstract goals into measurable, executable action plans
+- Led a multi-disciplinary team of 9 driving a USD 10M annual transformation roadmap aligned with Executive Committee (ExCo) priorities and enterprise-wide strategic objectives
+- Governed a comprehensive transformation portfolio across business units, ensuring rigorous delivery against milestones and sustaining execution accountability through structured governance rhythms
+- Orchestrated end-to-end change management and communication strategies, securing organisational buy-in for large-scale transformation efforts
+- Architected Target Operating Model (TOM) design and roadmap structuring for major strategic shifts, converting abstract goals into measurable, executable action plans
 
 **Financial Stewardship & Operational Excellence**
-- Oversee USD 50M BAU and investment budget governance, realising USD 10M+ in cost savings through a structured optimisation programme — eliminating non-value-adding activities, renegotiating vendor contracts, and redesigning operating models
-- Deploy Celonis process mining to map end-to-end processes, surface inefficiencies, and generate data-driven insights that underpin operational improvement and strategic decisions
-- Synthesise cross-functional performance data into executive-ready insights, directly informing C-suite decisions on resource allocation and strategic priorities
+- Oversaw USD 50M BAU and investment budget governance, realising USD 10M+ in cost savings through a structured optimisation programme — eliminating non-value-adding activities, renegotiating vendor contracts, and redesigning operating models
+- Deployed Celonis process mining to map end-to-end processes, surface inefficiencies, and generate data-driven insights that underpinned operational improvement and strategic decisions
+- Synthesised cross-functional performance data into executive-ready insights, directly informing C-suite decisions on resource allocation and strategic priorities
 
 **Prudential Vietnam** — Ho Chi Minh City, Vietnam  
 *Manager, Corporate Strategy* · October 2021 – March 2024
@@ -69,6 +69,9 @@ Awarded for leading Claims Business Process Re-Engineering (BPR) using Celonis p
 
 **Alexandrite Award — Health Strategy** · Prudential Vietnam · December 2024  
 Recognised by Group and Executive Committee for architecting Prudential Vietnam's Health business strategy from the ground up — encompassing the 2024–2030 strategic vision, Target Operating Model, technology roadmap, and product portfolio — establishing the full foundation for a new line of business.
+
+**Shidler EMBA Merit Scholarship** · University of Hawaiʻi at Mānoa · 2025  
+Awarded on the basis of professional track record and leadership trajectory at admission to the Executive MBA programme.
 
 ---
 

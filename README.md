@@ -31,7 +31,18 @@ For professional background and experience, see [BIO.md](BIO.md) and [RESUME.md]
 
 ## Project Status — BUS 629 Performance Ratios (Coca-Cola / KO)
 
-**Final project grade: 41.61 / 45 = 92.47%**
+**🎓 Final course grade: 96.61 / 100 (A)**
+
+| Course component | Score | Weight | Contribution |
+|---|---:|---:|---:|
+| Project (Stages 0–5) | 92.47% | × 45% | 41.61 |
+| Final Exam | 100% | × 45% | 45.00 |
+| Attendance & Participation | 100% | × 10% | 10.00 |
+| **Course total** | | | **96.61** |
+
+### Project breakdown
+
+**Project sub-total: 41.61 / 45 = 92.47%**
 
 | Stage | Deliverable | Score | % | Latest commit |
 |-------|-------------|------:|--:|---------------|

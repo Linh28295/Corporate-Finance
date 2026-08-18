@@ -113,7 +113,7 @@ def build_story():
     s.append(Paragraph("Strategy &amp; Transformation Leader", S_TITLE))
     s.append(Paragraph(
         "nguyenbuingoclinh546@gmail.com · +84 9677 99 546 · Ho Chi Minh City, Vietnam · "
-        "<link href='https://linkedin.com/in/linh-nguyen-b89436143'>linkedin.com/in/linh-nguyen-b89436143</link>",
+        "<link href='https://www.linkedin.com/in/linhnguyen282'>linkedin.com/in/linhnguyen282</link>",
         S_CONTACT,
     ))
     s.append(HRFlowable(width="100%", thickness=1.0, color=NAVY, spaceBefore=4, spaceAfter=2))
